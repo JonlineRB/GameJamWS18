@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <VisionaireAdventure projectType="1" revision="20" version="196">
-	<Game name="" id="1" order="1" lastModified="15" GameId="28516" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="F" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Gruppe_11" GameGameName="Meta Murder Game" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
+	<Game name="" id="1" order="1" lastModified="20" GameId="28516" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="F" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="Gruppe_11" GameGameName="Meta Murder Game" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="0">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="4" LinkAny="F"/>
@@ -15,6 +15,7 @@
 		<GameInterfaces>
 			<Link parentLink="T" id="1" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="3" tableId="1" LinkAny="F"/>
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
@@ -34,8 +35,10 @@
 		<GameFirstCharacter parentLink="F" id="2" tableId="0" LinkAny="F"/>
 		<GameStandardLanguage parentLink="F" id="1" tableId="18" LinkAny="F"/>
 		<GameActions>
+			<Link parentLink="T" id="4" tableId="7" LinkAny="F"/>
+			<Link parentLink="T" id="5" tableId="7" LinkAny="F"/>
 		</GameActions>
-		<GameStartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameStartAction parentLink="T" id="7" tableId="7" LinkAny="F"/>
 		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftDblClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftHoldAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -185,9 +188,10 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="Main" id="2" order="3" lastModified="15" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Main" id="2" order="3" lastModified="20" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="12" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
+				<Link parentLink="F" id="3" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -230,7 +234,7 @@
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="3" versionedId="2" tableId="1">
+	<Interfaces newId="4" versionedId="2" tableId="1">
 		<Interface name="cursor" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -276,7 +280,7 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
 		</Interface>
-		<Interface name="interface_cursor" id="2" order="2" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+		<Interface name="interface_cursor" id="2" order="3" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
@@ -296,8 +300,28 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="0" tableId="31" LinkAny="F"/>
 		</Interface>
+		<Interface name="map" id="3" order="2" lastModified="20" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="InterfaceImages/map.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="8" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="2" tableId="31" LinkAny="F"/>
+		</Interface>
 	</Interfaces>
-	<Buttons newId="8" versionedId="7" tableId="2">
+	<Buttons newId="9" versionedId="7" tableId="2">
 		<Button name="click_left" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="T" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="2" tableId="13" LinkAny="F"/>
@@ -430,6 +454,24 @@
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="26" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="27" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="test" id="8" order="0" lastModified="20" ButtonType="4" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="18" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="19" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="28" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="29" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
 			</ButtonPolygon>
 			<ButtonActions>
@@ -650,7 +692,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="3" versionedId="2" tableId="7">
+	<Actions newId="8" versionedId="2" tableId="7">
 		<Action name="Called by other action" id="0" order="0" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -670,14 +712,52 @@
 				<Link parentLink="T" id="0" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Escape" id="4" order="0" lastModified="20" ActionExecutionType="27">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="1" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Space" id="5" order="1" lastModified="20" ActionExecutionType="32">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="2" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="7" order="7" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="5" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="7" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1" versionedId="0" tableId="8">
+	<ActionParts newId="8" versionedId="0" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Quit game" id="1" order="0" lastModified="20" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show/Hide 'Secondary interface'" id="2" order="1" lastModified="20" ActionPartCommand="56" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'Secondary interface'" id="5" order="1" lastModified="20" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="2" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'Inventory'" id="7" order="3" lastModified="20" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="30" versionedId="29" tableId="9">
+	<Animations newId="31" versionedId="29" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1089,7 +1169,7 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="18" versionedId="17" tableId="13">
+	<Sprites newId="20" versionedId="17" tableId="13">
 		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -1175,8 +1255,18 @@
 				<position x="1270" y="132"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Unnamed" id="18" order="18" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="19" order="19" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="28" versionedId="27" tableId="14">
+	<Texts newId="30" versionedId="27" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -1225,6 +1315,7 @@
 		<Text name="Unnamed" id="12" order="12" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="13" order="13" lastModified="-1">
@@ -1245,51 +1336,61 @@
 		<Text name="Unnamed" id="16" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="17" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="18" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="19" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="20" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="21" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="22" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="23" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="24" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="25" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="26" order="67" lastModified="-1">
@@ -1300,6 +1401,16 @@
 		<Text name="Unnamed" id="27" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="28" order="28" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="29" order="29" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
