@@ -618,12 +618,13 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="ToiletScene" id="1" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="Demo-Pictures/20181130_214225.jpg" Transparency="2">
+		<Scene name="ToiletScene" id="1" order="0" lastModified="25" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="AptlySized/Oli.jpg" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="2" tableId="14" LinkAny="F"/>
 			<SceneObjects>
+				<Link parentLink="T" id="7" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -711,7 +712,7 @@
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="7" versionedId="6" tableId="6">
+	<Objects newId="8" versionedId="6" tableId="6">
 		<Object name="Object0" id="3" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="9" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -814,8 +815,74 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="SlapObject" id="7" order="0" lastModified="25" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="43" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="2932" y="1394"/>
+				<point x="2657" y="834"/>
+				<point x="3069" y="488"/>
+				<point x="3250" y="115"/>
+				<point x="3509" y="38"/>
+				<point x="3657" y="115"/>
+				<point x="3772" y="345"/>
+				<point x="3838" y="516"/>
+				<point x="3986" y="648"/>
+				<point x="4085" y="653"/>
+				<point x="4201" y="845"/>
+				<point x="4277" y="1092"/>
+				<point x="4349" y="1521"/>
+				<point x="4327" y="1971"/>
+				<point x="4190" y="2394"/>
+				<point x="3783" y="2130"/>
+				<point x="3690" y="1883"/>
+				<point x="3723" y="1735"/>
+				<point x="3470" y="1499"/>
+				<point x="-10000" y="-10000"/>
+				<point x="1215" y="496"/>
+				<point x="1452" y="604"/>
+				<point x="1553" y="736"/>
+				<point x="1535" y="814"/>
+				<point x="1741" y="983"/>
+				<point x="1789" y="810"/>
+				<point x="1789" y="588"/>
+				<point x="1752" y="421"/>
+				<point x="1684" y="286"/>
+				<point x="1608" y="235"/>
+				<point x="1558" y="151"/>
+				<point x="1535" y="61"/>
+				<point x="1478" y="20"/>
+				<point x="1372" y="48"/>
+				<point x="1290" y="123"/>
+				<point x="1215" y="231"/>
+				<point x="1162" y="283"/>
+				<point x="1077" y="318"/>
+				<point x="997" y="340"/>
+				<point x="1077" y="414"/>
+				<point x="1114" y="475"/>
+				<point x="1215" y="489"/>
+				<point x="1217" y="505"/>
+				<point x="1224" y="498"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="12" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="12" versionedId="11" tableId="7">
+	<Actions newId="13" versionedId="11" tableId="7">
 		<Action name="Called by other action" id="0" order="0" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -879,6 +946,7 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="10" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="19" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="9" order="9" lastModified="-1" ActionExecutionType="-1">
@@ -894,6 +962,7 @@
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
 				<Link parentLink="T" id="13" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="18" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Escape" id="11" order="1" lastModified="23" ActionExecutionType="27">
@@ -903,8 +972,16 @@
 				<Link parentLink="T" id="14" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Left click" id="12" order="0" lastModified="25" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="15" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="17" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="15" versionedId="14" tableId="8">
+	<ActionParts newId="20" versionedId="14" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -965,8 +1042,24 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Play sound '395348__ihitokage__slap-3.ogg'" id="15" order="0" lastModified="25" ActionPartCommand="24" ActionPartPath="SoundFX\395348__ihitokage__slap-3.ogg" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound '326967__wingsofirony__ambience-class-room-chatter.wav'" id="17" order="1" lastModified="25" ActionPartCommand="24" ActionPartPath="SoundFX\326967__wingsofirony__ambience-class-room-chatter.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound 'paper flip.wav'" id="18" order="1" lastModified="25" ActionPartCommand="24" ActionPartPath="SoundFX\paper flip.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound 'zipper.wav'" id="19" order="1" lastModified="25" ActionPartCommand="24" ActionPartPath="SoundFX\zipper.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="39" versionedId="38" tableId="9">
+	<Animations newId="40" versionedId="38" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1638,205 +1731,219 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="43" versionedId="42" tableId="14">
-		<Text name="Unnamed" id="0" order="0" lastModified="-1">
+	<Texts newId="46" versionedId="42" tableId="14">
+		<Text name="Id: 0 - : TestScene" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="2" order="0" lastModified="-1">
+		<Text name="Id: 2 - : ToiletScene" id="2" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Oli" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="4" order="0" lastModified="-1">
+		<Text name="Id: 4 - : Outside" id="4" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="5" order="1" lastModified="-1">
+		<Text name="Id: 5 - : Hendrik" id="5" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="7" order="7" lastModified="-1">
+		<Text name="Id: 7 - cursor: click_left" id="7" order="7" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="click_left" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="8" order="8" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="9" order="10" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="10" order="7" lastModified="-1">
+		<Text name="Id: 8 - cursor: click_left" id="8" order="8" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="11" order="8" lastModified="-1">
+		<Text name="Id: 9 - : Object0" id="9" order="10" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="12" order="12" lastModified="-1">
+		<Text name="Id: 10 - : NotHendrik" id="10" order="7" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="13" order="13" lastModified="-1">
+		<Text name="Id: 11 - : DialogeScene" id="11" order="8" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 12 - : Main" id="12" order="12" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 13 - interface_cursor: click_left" id="13" order="13" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Use" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="14" order="14" lastModified="-1">
+		<Text name="Id: 14 - interface_cursor: click_left" id="14" order="14" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="15" order="15" lastModified="-1">
+		<Text name="Id: 15 - TestScene: asdf" id="15" order="15" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 16 - Inventory: Slot7" id="16" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 17 - Inventory: Slot7" id="17" order="68" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 18 - Inventory: Slot2" id="18" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="16" order="67" lastModified="-1">
+		<Text name="Id: 19 - Inventory: Slot2" id="19" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="17" order="68" lastModified="-1">
+		<Text name="Id: 20 - Inventory: Slot3" id="20" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="18" order="67" lastModified="-1">
+		<Text name="Id: 21 - Inventory: Slot3" id="21" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="19" order="68" lastModified="-1">
+		<Text name="Id: 22 - Inventory: Slot4" id="22" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="20" order="67" lastModified="-1">
+		<Text name="Id: 23 - Inventory: Slot4" id="23" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="21" order="68" lastModified="-1">
+		<Text name="Id: 24 - Inventory: Slot5" id="24" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="22" order="67" lastModified="-1">
+		<Text name="Id: 25 - Inventory: Slot5" id="25" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="23" order="68" lastModified="-1">
+		<Text name="Id: 26 - Inventory: Slot6" id="26" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="24" order="67" lastModified="-1">
+		<Text name="Id: 27 - Inventory: Slot6" id="27" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="25" order="68" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="26" order="67" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="27" order="68" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="28" order="28" lastModified="-1">
+		<Text name="Id: 28 - map: test" id="28" order="28" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="29" order="29" lastModified="-1">
+		<Text name="Id: 29 - map: test" id="29" order="29" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="30" order="28" lastModified="-1">
+		<Text name="Id: 30 - : player" id="30" order="28" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="31" order="29" lastModified="-1">
+		<Text name="Id: 31 - NotHendrik: start_dialogue: Id: 31 - NotHendrik: start_dialogue: Unnamed" id="31" order="29" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Scene1" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="32" order="30" lastModified="-1">
+		<Text name="Id: 32 - NotHendrik: start_dialogue: Id: 32 - NotHendrik: start_dialogue: Unnamed" id="32" order="30" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="I need your help! &lt;br/&gt;The project deadline is drawing near, go check on group 11. Go my minion." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="33" order="31" lastModified="-1">
+		<Text name="Id: 33 - NotHendrik: start_dialogue: Id: 33 - NotHendrik: start_dialogue: Unnamed" id="33" order="31" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="&lt;br/&gt;" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="34" order="32" lastModified="-1">
+		<Text name="Id: 34 - Action: NotHendrik: Huh? I have far more important things to do. Kern-Orga stuff you know." id="34" order="32" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Huh? I have far more important things to do. Kern-Orga stuff you know." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="35" order="35" lastModified="-1">
+		<Text name="Id: 35 - Action: NotHendrik: Go check on group 11." id="35" order="35" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Go check on group 11." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="36" order="36" lastModified="-1">
+		<Text name="Id: 36 - Action: NotHendrik: You remember they are in the glass room 2, don’t you?" id="36" order="36" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="You remember they are in the glass room 2, don’t you?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="37" order="37" lastModified="-1">
+		<Text name="Id: 37 - Action: player: Why don’t you look yourself?" id="37" order="37" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Why don’t you look yourself?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="38" order="38" lastModified="-1">
+		<Text name="Id: 38 - NotHendrik: start_dialogue: Id: 38 - NotHendrik: start_dialogue: Unnamed" id="38" order="38" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Scene2" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="39" order="39" lastModified="-1">
+		<Text name="Id: 39 - NotHendrik: start_dialogue: Id: 39 - NotHendrik: start_dialogue: Unnamed" id="39" order="39" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="What do you mean they are missing?! They need to be around here somewhere. I saw them put something into one of the lockers today, so they can’t be far. Find them or you are fired." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="40" order="40" lastModified="-1">
+		<Text name="Id: 40 - NotHendrik: start_dialogue: Id: 40 - NotHendrik: start_dialogue: Unnamed" id="40" order="40" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="41" order="28" lastModified="-1">
+		<Text name="Id: 41 - Fish" id="41" order="28" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Fish" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="42" order="29" lastModified="-1">
+		<Text name="Id: 42 - TestScene: FishOnScreen" id="42" order="29" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 43 - ToiletScene: SlapObject" id="43" order="43" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
