@@ -1,8 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <VisionaireAdventure projectType="-1" revision="-1" version="196">
+<<<<<<< HEAD
 	<Game name="" id="1" order="1" lastModified="-1" GameId="28516" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
 		<GameSceneLinks>
 			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
+=======
+	<Game name="Unnamed" id="1" order="1" lastModified="-1" GameId="28516" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
+		<GameSceneLinks>
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 		</GameSceneLinks>
 		<GameCharacterLinks>
 		</GameCharacterLinks>
@@ -56,9 +61,12 @@
 		<GameShaderLinks>
 		</GameShaderLinks>
 		<GameAudioMixLinks>
+<<<<<<< HEAD
 			<Link parentLink="T" id="0" tableId="37" LinkAny="F"/>
 			<Link parentLink="T" id="1" tableId="37" LinkAny="F"/>
 			<Link parentLink="T" id="2" tableId="37" LinkAny="F"/>
+=======
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 		</GameAudioMixLinks>
 		<GameAudioContainerLinks>
 		</GameAudioContainerLinks>
@@ -95,6 +103,7 @@
 	</Buttons>
 	<Fonts newId="0" versionedId="-1" tableId="3">
 	</Fonts>
+<<<<<<< HEAD
 	<Scenes newId="1" versionedId="-1" tableId="4">
 		<Scene name="TestSceneDings" id="0" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
@@ -152,12 +161,23 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+=======
+	<Scenes newId="0" versionedId="-1" tableId="4">
+	</Scenes>
+	<Points newId="0" versionedId="-1" tableId="5">
+	</Points>
+	<Objects newId="0" versionedId="-1" tableId="6">
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 	</Objects>
 	<Actions newId="0" versionedId="-1" tableId="7">
 	</Actions>
 	<ActionParts newId="0" versionedId="-1" tableId="8">
 	</ActionParts>
+<<<<<<< HEAD
 	<Animations newId="1" versionedId="-1" tableId="9">
+=======
+	<Animations newId="0" versionedId="-1" tableId="9">
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 	</Animations>
 	<Conditions newId="0" versionedId="-1" tableId="10">
 	</Conditions>
@@ -167,6 +187,7 @@
 	</DialogParts>
 	<Sprites newId="0" versionedId="-1" tableId="13">
 	</Sprites>
+<<<<<<< HEAD
 	<Texts newId="2" versionedId="-1" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
@@ -178,6 +199,9 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+=======
+	<Texts newId="0" versionedId="-1" tableId="14">
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 	</Texts>
 	<Cursors newId="0" versionedId="-1" tableId="15">
 	</Cursors>
@@ -204,6 +228,7 @@
 	<Scripts newId="0" versionedId="-1" tableId="30">
 	</Scripts>
 	<InterfaceClasses newId="5" versionedId="-1" tableId="31">
+<<<<<<< HEAD
 		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
 		</InterfaceClass>
 		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
@@ -213,6 +238,17 @@
 		<InterfaceClass name="Options interface" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
 		</InterfaceClass>
 		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
+=======
+		<InterfaceClass name="Unnamed" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Unnamed" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
+		</InterfaceClass>
+		<InterfaceClass name="Unnamed" id="2" order="2" lastModified="-1" InterfaceClassName="SecondaryInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Unnamed" id="3" order="3" lastModified="-1" InterfaceClassName="OptionsInterface">
+		</InterfaceClass>
+		<InterfaceClass name="Unnamed" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 		</InterfaceClass>
 	</InterfaceClasses>
 	<ActionAreas newId="0" versionedId="-1" tableId="32">
@@ -221,6 +257,7 @@
 	</AreaActions>
 	<Shaders newId="0" versionedId="-1" tableId="36">
 	</Shaders>
+<<<<<<< HEAD
 	<AudioBusses newId="3" versionedId="-1" tableId="37">
 		<AudioBus name="eMusicVolume" id="0" order="0" lastModified="-1" AudioBusType="1" AudioBusSettings="">
 			<AudioBusLinks>
@@ -255,6 +292,9 @@
 			<AudioBusLinkedObjects>
 			</AudioBusLinkedObjects>
 		</AudioBus>
+=======
+	<AudioBusses newId="0" versionedId="-1" tableId="37">
+>>>>>>> a6e07977ed72baf49ffff68174609c0022e29a82
 	</AudioBusses>
 	<Events newId="0" versionedId="-1" tableId="38">
 	</Events>
