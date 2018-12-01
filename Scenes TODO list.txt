@@ -1,0 +1,99 @@
+List of scenes to be implemented:
+
+SCENE 1
+
+Location: Quantum.
+Characters: Hendrik is in panic.
+
+Dialogue:
+
+	Hendrik: The project deadline is drawing near, go check on group 11. Go my minion.
+-Why don’t you look yourself?
+	Huh? I have far more important things to do. Kern-Orga stuff you know[eating noises]
+-Go check on group 11.
+	H: You remember they are in the glass room 2, don’t you?
+
+Event: Force use the map
+
+SCENE 2
+
+Location: Group work room (G2).
+
+Characters:
+
+Objects: Bluescreen laptop, passwordlaptop, unity laptop, empty beer crate
+
+Interactions:
+
+bluescreen laptop: dialogue:
+You see a laptop with a bluescreen(bsod). Well R.I.P.
+
+With passwordlaptop:
+Input password event.
+--
+wrong entry: dialogue:
+Wrong password: Wrong password – stop guessing you will never get it. HAHAHAHA
+
+Correct entry: dialogue:
+Correct - You are either me or a genius(ME)
+--
+
+unity laptop: dialogue:
+You see a Laptop with a weird Unity game on it. The Log is full of Errors.
+
+empty beer crate: dialogue:
+...Don't drink and code
+
+Upon leaving: dialogue:
+Looks like they are not here.You should report back to master Hendrik. 
+
+
+SCENE 3
+
+Location: Quantum.
+
+Characters: Hendrik.
+
+Objects: Fridge, (Optional) Oven.
+
+Dialogue:
+Hendrik: What do you mean they are missing?! They need to be around here somewhere. I saw them put something into one of the lockers today, so they can’t be far. Find them or you are fired.
+
+Hendrik turns around and starts furiously discussing with another participant.
+
+-- replace the hendrik instance with a hendrik talking with another colleague.
+
+Fridge: There are items inside:
+-Take fish
+-Take pizza
+-Take something else
+-Go away
+
+Hendrik & colleague:
+default dialogue:
+Hendrik is furiously discussing with another participant. You rather not get involved with the master too much.
+alt dialogue (gandalf quest started):
+They are in a furious discussion. Without some serious distraction you won’t get Hendrik to let you talk with the guy in [whatever].
+
+Optional interaction with the oven, if you have the pizza:
+dialogue:
+you bake the pizza – and ate it. NOM NOM NOM[Eating sounds] – It was delicious, but shouldn’t you be working? You felt the cold glare of Hendrik.
+
+SCENE 4
+
+Location: Quantum2
+
+Characters: Gollum
+
+Objects: Xbox
+
+Interactions:
+Xbox (sub interactions):
+-Play: dialogue:
+You spend some time playing on the XBOX, but shouldn’t you get back to work?
+-Take controllers: (dialogue)
+		You took the 2 controllers. (Just “borrowing” them) //add to inventory
+
+Gollum:
+default dialogue:
+Sorry too many people want achievements, WHY couldn’t they have done that before my shift started. AHHHHHHH!
