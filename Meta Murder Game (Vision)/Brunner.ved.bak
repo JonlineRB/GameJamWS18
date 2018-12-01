@@ -644,7 +644,7 @@
 			</InterfaceConditions>
 			<InterfaceValues>
 			</InterfaceValues>
-			<InterfaceInterfaceClass parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceInterfaceClass parentLink="F" id="5" tableId="31" LinkAny="F"/>
 		</Interface>
 	</Interfaces>
 	<Buttons newId="16" versionedId="14" tableId="2">
@@ -1194,8 +1194,8 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="GroupWorkRoom" id="5" order="11" lastModified="31" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="AptlySized/Scanner.jpg" Transparency="2">
+		<Scene name="GroupWorkRoom" id="5" order="11" lastModified="39" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="AptlySized/Background/G2Room.jpg" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="44" tableId="14" LinkAny="F"/>
@@ -1294,13 +1294,14 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="RoomBeforeKey" id="8" order="13" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="AptlySized/Scanner.jpg" Transparency="2">
+		<Scene name="RoomBeforeKey" id="8" order="13" lastModified="39" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="AptlySized/Background/GandalfGone.jpg" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="81" tableId="14" LinkAny="F"/>
 			<SceneObjects>
 				<Link parentLink="T" id="27" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="33" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1422,7 +1423,7 @@
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="33" versionedId="29" tableId="6">
+	<Objects newId="34" versionedId="29" tableId="6">
 		<Object name="Object0" id="3" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="9" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -1977,8 +1978,42 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="Gandalf" id="33" order="1" lastModified="39" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="105" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="1066" y="1074"/>
+				<point x="1144" y="709"/>
+				<point x="1070" y="567"/>
+				<point x="1199" y="465"/>
+				<point x="1221" y="338"/>
+				<point x="1288" y="332"/>
+				<point x="1274" y="387"/>
+				<point x="1322" y="489"/>
+				<point x="1431" y="595"/>
+				<point x="1354" y="731"/>
+				<point x="1397" y="1078"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="9" tableId="10" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="38" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="28" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+				<Link parentLink="T" id="9" tableId="10" LinkAny="F"/>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="28" versionedId="25" tableId="7">
+	<Actions newId="29" versionedId="25" tableId="7">
 		<Action name="Called by other action" id="0" order="0" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2141,8 +2176,15 @@
 			<ActionActionParts>
 			</ActionActionParts>
 		</Action>
+		<Action name="'click_left' executed (immediate)" id="28" order="0" lastModified="39" ActionExecutionType="17">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="42" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="42" versionedId="39" tableId="8">
+	<ActionParts newId="43" versionedId="39" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2261,6 +2303,10 @@
 		</ActionPart>
 		<ActionPart name="Hide 'Secondary interface'" id="41" order="0" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="2" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Change condition 'GandalfVisible' to false" id="42" order="0" lastModified="39" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="9" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
@@ -3412,7 +3458,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="9" versionedId="5" tableId="10">
+	<Conditions newId="10" versionedId="5" tableId="10">
 		<Condition name="Fisch_picked_up" id="1" order="0" lastModified="-1" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -3441,12 +3487,16 @@
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
+		<Condition name="GandalfVisible" id="9" order="0" lastModified="39" ConditionIsVariable="T" ConditionValue="T" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+			</ConditionConditions>
+		</Condition>
 	</Conditions>
 	<Dialogs newId="0" versionedId="-1" tableId="11">
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="38" versionedId="33" tableId="13">
+	<Sprites newId="39" versionedId="33" tableId="13">
 		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -3627,8 +3677,13 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="38" order="38" lastModified="39">
+			<SpriteSprite name="" pause="-1" path="AptlySized/Background/GandalfRoom.jpg" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="105" versionedId="96" tableId="14">
+	<Texts newId="106" versionedId="96" tableId="14">
 		<Text name="Id: 5 - : Hendrik" id="5" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -4005,6 +4060,11 @@
 		<Text name="Id: 104 - Toilet: toiletClosed" id="104" order="104" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 105 - RoomBeforeKey: Gandalf" id="105" order="105" lastModified="39">
+			<TextTextLanguages>
+				<text Text="Gandalf" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
