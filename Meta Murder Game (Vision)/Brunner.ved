@@ -627,7 +627,7 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="4" tableId="31" LinkAny="F"/>
 		</Interface>
-		<Interface name="TestInterface" id="5" order="3" lastModified="39" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+		<Interface name="EndInterface" id="5" order="3" lastModified="39" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="T">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
@@ -1159,7 +1159,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="15" versionedId="11" tableId="4">
+	<Scenes newId="12" versionedId="11" tableId="4">
 		<Scene name="Quantum1" id="4" order="0" lastModified="39" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="AptlySized/Quantum1.jpg" Transparency="2">
 				<position x="0" y="0"/>
@@ -2142,7 +2142,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="43" versionedId="39" tableId="8">
+	<ActionParts newId="42" versionedId="39" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -4274,7 +4274,7 @@
 	</WaySystems>
 	<Scripts newId="0" versionedId="-1" tableId="30">
 	</Scripts>
-	<InterfaceClasses newId="7" versionedId="4" tableId="31">
+	<InterfaceClasses newId="6" versionedId="4" tableId="31">
 		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
 		</InterfaceClass>
 		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
@@ -4285,7 +4285,7 @@
 		</InterfaceClass>
 		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
 		</InterfaceClass>
-		<InterfaceClass name="LeonStinkt" id="5" order="5" lastModified="39" InterfaceClassName="">
+		<InterfaceClass name="LeonStinkt" id="5" order="5" lastModified="39" InterfaceClassName="LeonStinkt">
 		</InterfaceClass>
 	</InterfaceClasses>
 	<ActionAreas newId="0" versionedId="-1" tableId="32">

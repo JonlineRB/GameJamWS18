@@ -627,7 +627,7 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="4" tableId="31" LinkAny="F"/>
 		</Interface>
-		<Interface name="TestInterface" id="5" order="3" lastModified="39" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+		<Interface name="EndInterface" id="5" order="3" lastModified="39" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="T">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
@@ -644,7 +644,7 @@
 			</InterfaceConditions>
 			<InterfaceValues>
 			</InterfaceValues>
-			<InterfaceInterfaceClass parentLink="F" id="5" tableId="31" LinkAny="F"/>
+			<InterfaceInterfaceClass parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Interface>
 	</Interfaces>
 	<Buttons newId="16" versionedId="14" tableId="2">
@@ -1159,7 +1159,7 @@
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
 	</Fonts>
-	<Scenes newId="15" versionedId="11" tableId="4">
+	<Scenes newId="12" versionedId="11" tableId="4">
 		<Scene name="Quantum1" id="4" order="0" lastModified="39" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="AptlySized/Quantum1.jpg" Transparency="2">
 				<position x="0" y="0"/>
@@ -1388,7 +1388,7 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="Snorlax" id="11" order="16" lastModified="39" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="-13" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="Snorlax" id="11" order="16" lastModified="39" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="AptlySized/Background/BetterSnorlax.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -2142,7 +2142,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="43" versionedId="39" tableId="8">
+	<ActionParts newId="42" versionedId="39" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3629,380 +3629,380 @@
 		</Sprite>
 	</Sprites>
 	<Texts newId="105" versionedId="96" tableId="14">
-		<Text name="Unnamed" id="5" order="1" lastModified="-1">
+		<Text name="Id: 5 - : Hendrik" id="5" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="7" order="7" lastModified="-1">
+		<Text name="Id: 7 - cursor: click_left" id="7" order="7" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="click_left" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="8" order="8" lastModified="-1">
+		<Text name="Id: 8 - cursor: click_left" id="8" order="8" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="9" order="10" lastModified="-1">
+		<Text name="Id: 9 - : Object0" id="9" order="10" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="13" order="13" lastModified="-1">
+		<Text name="Id: 13 - interface_cursor: click_left" id="13" order="13" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Use" path="" int="0"/>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="14" order="14" lastModified="-1">
+		<Text name="Id: 14 - interface_cursor: click_left" id="14" order="14" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="16" order="67" lastModified="-1">
+		<Text name="Id: 16 - Inventory: Slot7" id="16" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="17" order="68" lastModified="-1">
+		<Text name="Id: 17 - Inventory: Slot7" id="17" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="18" order="67" lastModified="-1">
+		<Text name="Id: 18 - Inventory: Slot2" id="18" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="19" order="68" lastModified="-1">
+		<Text name="Id: 19 - Inventory: Slot2" id="19" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="20" order="67" lastModified="-1">
+		<Text name="Id: 20 - Inventory: Slot3" id="20" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="21" order="68" lastModified="-1">
+		<Text name="Id: 21 - Inventory: Slot3" id="21" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="22" order="67" lastModified="-1">
+		<Text name="Id: 22 - Inventory: Slot4" id="22" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="23" order="68" lastModified="-1">
+		<Text name="Id: 23 - Inventory: Slot4" id="23" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="24" order="67" lastModified="-1">
+		<Text name="Id: 24 - Inventory: Slot5" id="24" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="25" order="68" lastModified="-1">
+		<Text name="Id: 25 - Inventory: Slot5" id="25" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="26" order="67" lastModified="-1">
+		<Text name="Id: 26 - Inventory: Slot6" id="26" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="27" order="68" lastModified="-1">
+		<Text name="Id: 27 - Inventory: Slot6" id="27" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="28" order="28" lastModified="-1">
+		<Text name="Id: 28 - map: Quantum" id="28" order="28" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="29" order="29" lastModified="-1">
+		<Text name="Id: 29 - map: Quantum" id="29" order="29" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="30" order="28" lastModified="-1">
+		<Text name="Id: 30 - : Player" id="30" order="28" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="41" order="28" lastModified="-1">
+		<Text name="Id: 41 - Fish" id="41" order="28" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Fish" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="43" order="43" lastModified="-1">
+		<Text name="Id: 43 - : Quantum1" id="43" order="43" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="44" order="44" lastModified="-1">
+		<Text name="Id: 44 - : GroupWorkRoom" id="44" order="44" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="45" order="45" lastModified="-1">
+		<Text name="Id: 45 - : Quantum2" id="45" order="45" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="46" order="48" lastModified="-1">
+		<Text name="Id: 46 - Quantum1: test" id="46" order="48" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="47" order="51" lastModified="-1">
+		<Text name="Id: 47 - Quantum2: test" id="47" order="51" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="48" order="52" lastModified="-1">
+		<Text name="Id: 48 - GroupWorkRoom: test" id="48" order="52" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="49" order="53" lastModified="-1">
+		<Text name="Id: 49 - map: GroupWorkRoom" id="49" order="53" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="50" order="54" lastModified="-1">
+		<Text name="Id: 50 - map: GroupWorkRoom" id="50" order="54" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="51" order="55" lastModified="39">
+		<Text name="Id: 51 - Quantum1: leaveLeft" id="51" order="55" lastModified="39">
 			<TextTextLanguages>
 				<text Text="go left" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="52" order="55" lastModified="39">
+		<Text name="Id: 52 - Quantum2: leaveRight" id="52" order="55" lastModified="39">
 			<TextTextLanguages>
 				<text Text="go right" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="58" order="43" lastModified="-1">
+		<Text name="Id: 58 - Fish: 'click_left' executed (immediate)" id="58" order="43" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="&quot;Rett du Fish&quot;" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="60" order="60" lastModified="35">
+		<Text name="Id: 60 - Pizza" id="60" order="60" lastModified="35">
 			<TextTextLanguages>
 				<text Text="Pizza" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="61" order="61" lastModified="35">
+		<Text name="Id: 61 - Xbox controllers" id="61" order="61" lastModified="35">
 			<TextTextLanguages>
 				<text Text="Xbox controllers" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="62" order="62" lastModified="35">
+		<Text name="Id: 62 - Key" id="62" order="62" lastModified="35">
 			<TextTextLanguages>
 				<text Text="Key" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="63" order="63" lastModified="35">
+		<Text name="Id: 63 - Toilet paper" id="63" order="63" lastModified="35">
 			<TextTextLanguages>
 				<text Text="Toilet paper" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="64" order="64" lastModified="-1">
+		<Text name="Id: 64 - Quantum2: Xbox" id="64" order="64" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="65" order="65" lastModified="-1">
+		<Text name="Id: 65 - Quantum1: Fridge" id="65" order="65" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="66" order="66" lastModified="-1">
+		<Text name="Id: 66 - Quantum1: Oven" id="66" order="66" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="67" order="67" lastModified="-1">
+		<Text name="Id: 67 - GroupWorkRoom: bluescreenLaptop" id="67" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="68" order="68" lastModified="-1">
+		<Text name="Id: 68 - GroupWorkRoom: passwordLaptop" id="68" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="69" order="69" lastModified="-1">
+		<Text name="Id: 69 - GroupWorkRoom: unityLaptop" id="69" order="69" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="70" order="70" lastModified="-1">
+		<Text name="Id: 70 - GroupWorkRoom: emptyBeerCrate" id="70" order="70" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="71" order="71" lastModified="-1">
+		<Text name="Id: 71 - KeyFound: Back" id="71" order="71" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="72" order="72" lastModified="-1">
+		<Text name="Id: 72 - KeyFound: Back" id="72" order="72" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="73" order="60" lastModified="-1">
+		<Text name="Id: 73 - : Gollum" id="73" order="60" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="74" order="61" lastModified="-1">
+		<Text name="Id: 74 - : PersonA" id="74" order="61" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="75" order="62" lastModified="-1">
+		<Text name="Id: 75 - : PersonB" id="75" order="62" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="76" order="63" lastModified="-1">
+		<Text name="Id: 76 - : PersonC" id="76" order="63" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="77" order="64" lastModified="-1">
+		<Text name="Id: 77 - : SleepyPerson" id="77" order="64" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="78" order="65" lastModified="-1">
+		<Text name="Id: 78 - : Gandalf" id="78" order="65" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="79" order="66" lastModified="-1">
+		<Text name="Id: 79 - : Anonymus" id="79" order="66" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="80" order="60" lastModified="-1">
+		<Text name="Id: 80 - : LectureHall2" id="80" order="60" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="81" order="61" lastModified="-1">
+		<Text name="Id: 81 - : RoomBeforeKey" id="81" order="61" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="82" order="63" lastModified="-1">
+		<Text name="Id: 82 - : Toilet" id="82" order="63" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="83" order="64" lastModified="-1">
+		<Text name="Id: 83 - : LockerRoom" id="83" order="64" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="84" order="65" lastModified="-1">
+		<Text name="Id: 84 - : Snorlax" id="84" order="65" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="85" order="66" lastModified="-1">
+		<Text name="Id: 85 - map: LectureHall2" id="85" order="66" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="86" order="67" lastModified="-1">
+		<Text name="Id: 86 - map: LectureHall2" id="86" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="87" order="68" lastModified="-1">
+		<Text name="Id: 87 - LectureHall2: test" id="87" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="88" order="69" lastModified="-1">
+		<Text name="Id: 88 - map: RoomBeforeKey" id="88" order="69" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="89" order="70" lastModified="-1">
+		<Text name="Id: 89 - map: RoomBeforeKey" id="89" order="70" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="90" order="73" lastModified="-1">
+		<Text name="Id: 90 - RoomBeforeKey: test" id="90" order="73" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="91" order="74" lastModified="-1">
+		<Text name="Id: 91 - Toilet: test" id="91" order="74" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="92" order="75" lastModified="-1">
+		<Text name="Id: 92 - map: Toilet" id="92" order="75" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="93" order="76" lastModified="-1">
+		<Text name="Id: 93 - map: Toilet" id="93" order="76" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="94" order="77" lastModified="-1">
+		<Text name="Id: 94 - LockerRoom: test" id="94" order="77" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="95" order="78" lastModified="-1">
+		<Text name="Id: 95 - map: LockerRoom" id="95" order="78" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="96" order="79" lastModified="-1">
+		<Text name="Id: 96 - map: LockerRoom" id="96" order="79" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="97" order="97" lastModified="-1">
+		<Text name="Id: 97 - map: Snorlax" id="97" order="97" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="98" order="98" lastModified="-1">
+		<Text name="Id: 98 - map: Snorlax" id="98" order="98" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="99" order="99" lastModified="-1">
+		<Text name="Id: 99 - Snorlax: test" id="99" order="99" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="103" order="103" lastModified="-1">
+		<Text name="Id: 103 - LectureHall2: HallWithRobin" id="103" order="103" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="104" order="104" lastModified="-1">
+		<Text name="Id: 104 - Toilet: toiletClosed" id="104" order="104" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -4274,7 +4274,7 @@
 	</WaySystems>
 	<Scripts newId="0" versionedId="-1" tableId="30">
 	</Scripts>
-	<InterfaceClasses newId="7" versionedId="4" tableId="31">
+	<InterfaceClasses newId="6" versionedId="4" tableId="31">
 		<InterfaceClass name="Main interface" id="0" order="0" lastModified="-1" InterfaceClassName="MainInterface">
 		</InterfaceClass>
 		<InterfaceClass name="Inventory" id="1" order="1" lastModified="-1" InterfaceClassName="Inventory">
@@ -4285,7 +4285,7 @@
 		</InterfaceClass>
 		<InterfaceClass name="Miscellaneous" id="4" order="4" lastModified="-1" InterfaceClassName="Miscellaneous">
 		</InterfaceClass>
-		<InterfaceClass name="LeonStinkt" id="5" order="5" lastModified="39" InterfaceClassName="">
+		<InterfaceClass name="LeonStinkt" id="5" order="5" lastModified="39" InterfaceClassName="LeonStinkt">
 		</InterfaceClass>
 	</InterfaceClasses>
 	<ActionAreas newId="0" versionedId="-1" tableId="32">
