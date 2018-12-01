@@ -97,3 +97,170 @@ You spend some time playing on the XBOX, but shouldn’t you get back to work?
 Gollum:
 default dialogue:
 Sorry too many people want achievements, WHY couldn’t they have done that before my shift started. AHHHHHHH!
+
+Response, only possible after starting the toilet quest):
+Ask about Toilet paper.
+
+His response:
+Sorry too many people want achievements. WAIT! You want my preciousssss.
+Well, well, well, I might give you some of it, but only if you solve one of my riddlessssss.
+-> start riddle event
+--
+correct answer for riddle: dialogue:
+What you solved it. IMPOSSSIBLE! Fine… take… it.
+[play zelda music]
+you got toilet paper. //add to inventory
+And now leave and never come back!
+--
+
+dialogue after completion of the toilet quest:
+You don’t really want to talk to that weirdo.
+
+SCENE 5 //optional
+
+Location: Lecture hall 1
+
+Characters: a stressed group of students
+
+Objects: Thermos Bottle
+
+Interactions:
+
+Thermos bottle: dialogue:
+Coffee, basically the life essence of any game developer.
+sub interaction:
+Take: dialogue:
+Oi! hands of my coffee!
+
+Stressed group: dialogue:
+When approaching you overhear them talking about some nasty git problems. 
+Group Member A: What have you done?!
+Group Member B: No wait I can fix that merge conflict.
+Group Member A: You can’t even commit correctly how can you fix this?!
+Group Member C: *Sniff* My lifework *Sniff* 
+
+//optional: chilled artist character, has nothing to do.
+
+SCENE 6 //optional
+
+Location: Glas1
+
+Characters: Sleep depraved participant
+
+Interactions:
+
+Sleep depraved participant: dialogue:
+In front of you lies a totally sleep-deprived participant who writes their code in a sort of trance. And they are mumbling something.
+Sleepy person:  Hendrrigg + FRISCH = ZLAP / Hendrik + Fish = SLAP
+
+//optional: another participant, has just awakend nad is positive. he didn't do much.
+
+SCENE 7:
+
+Location: Lecture Hall 2
+
+Characters: Group
+
+Interactions:
+
+Group: Dialogue:
+Member 1: OMG this game is amazing
+Member 2: I am gonna getcha. 
+Member 3: DIEDIEDIEIDIEDIE.
+Member 4: Come on guys I want to play too.
+
+response: dialogue between player and member4:
+-Why are you not playing with them?
+	M4: Because we are short one controller
+-Your teammate is looking for you.
+	M4: What the deadline? Well I first want to try out this game.
+
+optional response (requires controller)
+-give controller. dialogue:
+You give him the controller and he starts playing with the others. After a round he leaves satisfied.
+
+SCENE 8 //optional
+
+Location: Upstairs room
+
+Characters: 3 participants
+
+Interactions:
+
+The 3 participants: dialogue:
+P1: Overeager Programmer – feature creep – dude du weißt schon das in einer Std abgabe ist....
+P2: Ja also nur noch ein paar Bugfixes und wir sind fertig
+P3: Ich bin nur hier für die Switch/Essen
+
+SCENE 9
+
+Location: Room before key
+
+Characters: Gandalf.
+
+Interactions:
+
+Gandalf: dialogue:
+YOU SHALL NOT PASS!
+-What is wrong with you?
+I am waiting for my other 2 team members and won’t leave the spot until they are here.
+If you want to pass, you need the find them.
+-How do I recognize them?
+Just like me they are wearing the crown of Kings(paper hat). Now go forth and find them.
+
+SCENE 10:
+
+Location: Key room
+
+Objects: Note with a key
+
+Interactions:
+
+Note with a key: dialogue:
+You find a note with a locker key.
+
+sub interaction:
+Take the key
+
+response: dialogue:
+You got the Locker Key
+
+SCENE 11:
+
+Location: Toilet
+
+Objects: Stall (is actually a character though)
+
+Interactions:
+
+Stall: dialogue:
+Anonymus: Hey! This stall is occupied! But would you mind bringing me some toilet paper.
+-where can I find the toilet paper?
+How I am supposed to know? Ask those incompetent orga-people(leaving stalls without toilet paper HMPF)
+
+Possible sub interaction, needs to have toilet paper:
+Give toilet paper.
+
+response: dialogeu:
+You give him the toilet paper. He leaves the stall with a relieved face.
+
+SCENE 12:
+
+Location: Locker room.
+
+Objects: Lockers
+
+Interactions:
+
+Lockers:
+You see a bunch of lockers, they are all lockerd.
+
+possible sub interaction, requires key item: dialogue:
+Which locker do you want to open?
+
+start locker opening event
+
+SCENE 13
+
+Location: Quantum
+
