@@ -26,6 +26,7 @@
 		</GameLanguages>
 		<GameFirstScene parentLink="F" id="1" tableId="4" LinkAny="F"/>
 		<GameItems>
+			<Link parentLink="T" id="5" tableId="6" LinkAny="F"/>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
 		<GameWindowResolution x="1920" y="1080"/>
@@ -36,7 +37,7 @@
 		<GameActions>
 		</GameActions>
 		<GameStartAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		<GameRightClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		<GameRightClickAction parentLink="T" id="6" tableId="7" LinkAny="F"/>
 		<GameLeftDblClickAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftHoldAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		<GameLeftHoldingAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -185,9 +186,10 @@
 			<CharacterActionDestPosition x="-1" y="-1"/>
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
-		<Character name="Main" id="2" order="3" lastModified="15" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Main" id="2" order="3" lastModified="23" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="12" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
+				<Link parentLink="F" id="1" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -334,13 +336,17 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="Slot7" id="2" order="5" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Slot7" id="2" order="5" lastModified="23" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="6" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="7" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="16" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="17" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="1577" y="143"/>
+				<point x="1851" y="143"/>
+				<point x="1851" y="333"/>
+				<point x="1581" y="333"/>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -352,13 +358,17 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="Slot2" id="3" order="0" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Slot2" id="3" order="0" lastModified="23" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="8" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="9" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="18" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="19" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="85" y="139"/>
+				<point x="341" y="139"/>
+				<point x="341" y="333"/>
+				<point x="89" y="333"/>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -370,13 +380,17 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="Slot3" id="4" order="1" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Slot3" id="4" order="1" lastModified="23" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="10" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="11" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="20" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="21" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="383" y="141"/>
+				<point x="649" y="141"/>
+				<point x="649" y="335"/>
+				<point x="381" y="335"/>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -388,13 +402,17 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="Slot4" id="5" order="2" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Slot4" id="5" order="2" lastModified="23" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="12" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="13" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="22" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="23" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="683" y="143"/>
+				<point x="947" y="143"/>
+				<point x="947" y="327"/>
+				<point x="683" y="327"/>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -406,13 +424,17 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="Slot5" id="6" order="3" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Slot5" id="6" order="3" lastModified="23" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="14" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="15" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="24" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="25" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="981" y="139"/>
+				<point x="1247" y="139"/>
+				<point x="1247" y="337"/>
+				<point x="979" y="337"/>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -424,13 +446,17 @@
 			</ButtonGroup>
 			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Button>
-		<Button name="Slot6" id="7" order="4" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+		<Button name="Slot6" id="7" order="4" lastModified="23" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="16" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="17" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonName parentLink="T" id="26" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="27" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
+				<point x="1275" y="143"/>
+				<point x="1543" y="143"/>
+				<point x="1543" y="331"/>
+				<point x="1275" y="331"/>
 			</ButtonPolygon>
 			<ButtonActions>
 			</ButtonActions>
@@ -480,6 +506,7 @@
 			<SceneName parentLink="T" id="0" tableId="14" LinkAny="F"/>
 			<SceneObjects>
 				<Link parentLink="T" id="4" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="6" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -597,7 +624,7 @@
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="5" versionedId="4" tableId="6">
+	<Objects newId="7" versionedId="4" tableId="6">
 		<Object name="Object0" id="3" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="9" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -649,8 +676,59 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="Fish" id="5" order="0" lastModified="23" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="T" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="28" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="18" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="31" tableId="9" LinkAny="F"/>
+			<ObjectActions>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+				<Link parentLink="T" id="31" tableId="9" LinkAny="F"/>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
+		<Object name="FishOnScreen" id="6" order="1" lastModified="23" ObjectDirection="-1" ObjectCenter="407" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="29" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="237" y="309"/>
+				<point x="425" y="190"/>
+				<point x="498" y="255"/>
+				<point x="360" y="418"/>
+				<point x="226" y="422"/>
+				<point x="230" y="418"/>
+				<point x="233" y="309"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="T" id="19" tableId="13" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="4" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="3" versionedId="2" tableId="7">
+	<Actions newId="7" versionedId="2" tableId="7">
 		<Action name="Called by other action" id="0" order="0" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -670,14 +748,36 @@
 				<Link parentLink="T" id="0" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'click_left' executed (immediate)" id="4" order="0" lastModified="23" ActionExecutionType="17">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="2" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="6" order="6" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="3" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="1" versionedId="0" tableId="8">
+	<ActionParts newId="4" versionedId="0" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Add item 'Fish' to character 'Current character'" id="2" order="0" lastModified="23" ActionPartCommand="150" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="5" tableId="6" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show/Hide 'Inventory'" id="3" order="0" lastModified="23" ActionPartCommand="56" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="30" versionedId="29" tableId="9">
+	<Animations newId="32" versionedId="29" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -1082,6 +1182,20 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="Fish" id="31" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="-1" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="0" y="0"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="0" versionedId="-1" tableId="10">
 	</Conditions>
@@ -1089,7 +1203,7 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="18" versionedId="17" tableId="13">
+	<Sprites newId="20" versionedId="17" tableId="13">
 		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -1175,11 +1289,22 @@
 				<position x="1270" y="132"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Image" id="18" order="18" lastModified="23">
+			<SpriteSprite name="" pause="-1" path="Itemimages/rawfish_icon32.png" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Image" id="19" order="19" lastModified="23">
+			<SpriteSprite name="" pause="-1" path="Itemimages/rawfish_icon32.png" Transparency="2">
+				<position x="290" y="207"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="28" versionedId="27" tableId="14">
+	<Texts newId="30" versionedId="27" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="2" order="0" lastModified="-1">
@@ -1225,6 +1350,7 @@
 		<Text name="Unnamed" id="12" order="12" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="13" order="13" lastModified="-1">
@@ -1245,61 +1371,83 @@
 		<Text name="Unnamed" id="16" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="17" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="18" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="19" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="20" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="21" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="22" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="23" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="24" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="25" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="26" order="67" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="27" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="28" order="28" lastModified="23">
+			<TextTextLanguages>
+				<text Text="Fish" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="29" order="29" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
