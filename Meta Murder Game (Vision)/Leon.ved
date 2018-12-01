@@ -246,11 +246,17 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="0" tableId="31" LinkAny="F"/>
 		</Interface>
-		<Interface name="Inventory" id="1" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
-			<InterfaceSprite name="" pause="-1" path="Demo-Pictures/Inventar.png" Transparency="2">
+		<Interface name="Inventory" id="1" order="0" lastModified="16" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="InterfaceImages/Inventar_pergament.png" Transparency="2">
 				<position x="0" y="0"/>
 			</InterfaceSprite>
 			<InterfaceButtons>
+				<Link parentLink="T" id="29" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="30" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="31" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="32" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="33" tableId="2" LinkAny="F"/>
+				<Link parentLink="T" id="34" tableId="2" LinkAny="F"/>
 			</InterfaceButtons>
 			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceOffset x="0" y="0"/>
@@ -266,13 +272,121 @@
 			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
 		</Interface>
 	</Interfaces>
-	<Buttons newId="1" versionedId="0" tableId="2">
+	<Buttons newId="35" versionedId="0" tableId="2">
 		<Button name="click_left" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="T" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="2" tableId="13" LinkAny="F"/>
 			<ButtonCursor parentLink="F" id="0" tableId="15" LinkAny="F"/>
 			<ButtonName parentLink="T" id="7" tableId="14" LinkAny="F"/>
 			<ButtonConjunction parentLink="T" id="8" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="Slot7" id="29" order="6" lastModified="16" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="60" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="61" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="69" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="70" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="Slot2" id="30" order="1" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="62" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="63" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="71" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="72" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="Slot3" id="31" order="2" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="64" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="65" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="73" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="74" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="Slot4" id="32" order="3" lastModified="16" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="66" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="67" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="75" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="76" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="Slot5" id="33" order="4" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="68" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="69" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="77" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="78" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+			</ButtonPolygon>
+			<ButtonActions>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="Slot6" id="34" order="5" lastModified="-1" ButtonType="0" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="70" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="71" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="79" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="80" tableId="14" LinkAny="F"/>
 			<ButtonPolygon>
 			</ButtonPolygon>
 			<ButtonActions>
@@ -456,7 +570,7 @@
 	</Actions>
 	<ActionParts newId="0" versionedId="-1" tableId="8">
 	</ActionParts>
-	<Animations newId="28" versionedId="27" tableId="9">
+	<Animations newId="29" versionedId="27" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -834,7 +948,7 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="4" versionedId="3" tableId="13">
+	<Sprites newId="72" versionedId="3" tableId="13">
 		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -850,8 +964,68 @@
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Unnamed" id="60" order="58" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/active_inv_button.png" Transparency="2">
+				<position x="1573" y="133"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="61" order="59" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/inactive_inv_button.png" Transparency="2">
+				<position x="1573" y="133"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="62" order="58" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/active_inv_button.png" Transparency="2">
+				<position x="76" y="134"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="63" order="59" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/inactive_inv_button.png" Transparency="2">
+				<position x="76" y="134"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="64" order="58" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/active_inv_button.png" Transparency="2">
+				<position x="374" y="132"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="65" order="59" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/inactive_inv_button.png" Transparency="2">
+				<position x="374" y="132"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="66" order="58" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/active_inv_button.png" Transparency="2">
+				<position x="676" y="133"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="67" order="59" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/inactive_inv_button.png" Transparency="2">
+				<position x="676" y="133"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="68" order="58" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/active_inv_button.png" Transparency="2">
+				<position x="977" y="132"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="69" order="59" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/inactive_inv_button.png" Transparency="2">
+				<position x="977" y="132"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="70" order="58" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/active_inv_button.png" Transparency="2">
+				<position x="1270" y="132"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="71" order="59" lastModified="16">
+			<SpriteSprite name="" pause="-1" path="InterfaceImages/inactive_inv_button.png" Transparency="2">
+				<position x="1270" y="132"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="13" versionedId="12" tableId="14">
+	<Texts newId="81" versionedId="12" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -898,6 +1072,66 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="12" order="12" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="69" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="70" order="68" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="71" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="72" order="68" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="73" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="74" order="68" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="75" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="76" order="68" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="77" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="78" order="68" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="79" order="67" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="80" order="68" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
