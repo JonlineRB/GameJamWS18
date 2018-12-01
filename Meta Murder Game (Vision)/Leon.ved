@@ -10,6 +10,7 @@
 			<Link parentLink="T" id="0" tableId="0" LinkAny="F"/>
 		</GameCharacterLinks>
 		<GameInterfaces>
+			<Link parentLink="T" id="0" tableId="1" LinkAny="F"/>
 		</GameInterfaces>
 		<GameFontLinks>
 		</GameFontLinks>
@@ -91,7 +92,7 @@
 		</Loading>
 	</Loadings>
 	<Characters newId="1" versionedId="0" tableId="0">
-		<Character name="Hendrik" id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
+		<Character name="Hendrik" id="0" order="0" lastModified="9" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
 			</CharacterInterfaces>
@@ -135,7 +136,26 @@
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="0" versionedId="-1" tableId="1">
+	<Interfaces newId="1" versionedId="-1" tableId="1">
+		<Interface name="Inventory" id="0" order="0" lastModified="9" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="Demo-Pictures/Inventar.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="1" tableId="31" LinkAny="F"/>
+		</Interface>
 	</Interfaces>
 	<Buttons newId="0" versionedId="-1" tableId="2">
 	</Buttons>
@@ -173,7 +193,7 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="ToiletScene" id="1" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+		<Scene name="ToiletScene" id="1" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -204,13 +224,12 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="Outside" id="2" order="0" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="" Transparency="2">
+		<Scene name="Outside" id="2" order="1" lastModified="9" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Demo-Pictures/20181130_213744.jpg" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="4" tableId="14" LinkAny="F"/>
 			<SceneObjects>
-				<Link parentLink="T" id="2" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -238,7 +257,7 @@
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="3" versionedId="2" tableId="6">
+	<Objects newId="5" versionedId="2" tableId="6">
 		<Object name="Test" id="0" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="1" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -281,33 +300,12 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Object0" id="2" order="0" lastModified="7" ObjectDirection="0" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="T" id="6" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="T" id="0" tableId="13" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Object>
 	</Objects>
 	<Actions newId="0" versionedId="-1" tableId="7">
 	</Actions>
 	<ActionParts newId="0" versionedId="-1" tableId="8">
 	</ActionParts>
-	<Animations newId="9" versionedId="8" tableId="9">
+	<Animations newId="10" versionedId="8" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -427,14 +425,9 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="1" versionedId="0" tableId="13">
-		<Sprite name="Image" id="0" order="0" lastModified="-1">
-			<SpriteSprite name="" pause="-1" path="Demo-Pictures/20181130_205457.jpg" Transparency="2">
-				<position x="0" y="0"/>
-			</SpriteSprite>
-		</Sprite>
+	<Sprites newId="2" versionedId="0" tableId="13">
 	</Sprites>
-	<Texts newId="7" versionedId="6" tableId="14">
+	<Texts newId="9" versionedId="6" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -461,11 +454,6 @@
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="5" order="1" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="6" order="2" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
