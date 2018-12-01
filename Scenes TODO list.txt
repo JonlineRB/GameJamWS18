@@ -7,6 +7,7 @@ Characters: Hendrik is in panic.
 
 Dialogue:
 
+	Hendrik: The project deadline is drawing near, go check on group 11. Go my minion.
 -Why don’t you look yourself?
 	Huh? I have far more important things to do. Kern-Orga stuff you know[eating noises]
 -Go check on group 11.
@@ -80,7 +81,9 @@ you bake the pizza – and ate it. NOM NOM NOM[Eating sounds] – It was delicious, 
 
 SCENE 4
 
-Location Quantum2:
+Location: Quantum2
+
+Characters: Gollum
 
 Objects: Xbox
 
@@ -89,4 +92,8 @@ Xbox (sub interactions):
 -Play: dialogue:
 You spend some time playing on the XBOX, but shouldn’t you get back to work?
 -Take controllers: (dialogue)
-		You took the 2 controllers. (Just “borrowing” them)
+		You took the 2 controllers. (Just “borrowing” them) //add to inventory
+
+Gollum:
+default dialogue:
+Sorry too many people want achievements, WHY couldn’t they have done that before my shift started. AHHHHHHH!
