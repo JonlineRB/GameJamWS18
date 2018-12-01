@@ -90,7 +90,7 @@
 			</LoadingStatusSprite>
 		</Loading>
 	</Loadings>
-	<Characters newId="1" versionedId="0" tableId="0">
+	<Characters newId="34" versionedId="0" tableId="0">
 		<Character name="Hendrik" id="0" order="0" lastModified="-1" CharacterWalkingSound="" CharacterScale="T" CharacterDialogVerticalSpace="10" CharacterScaleFactor="100" CharacterHarmonizeWalkAnimations="F">
 			<CharacterName parentLink="T" id="5" tableId="14" LinkAny="F"/>
 			<CharacterInterfaces>
@@ -141,8 +141,8 @@
 	</Buttons>
 	<Fonts newId="0" versionedId="-1" tableId="3">
 	</Fonts>
-	<Scenes newId="3" versionedId="2" tableId="4">
-		<Scene name="TestScene" id="0" order="3" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+	<Scenes newId="11" versionedId="2" tableId="4">
+		<Scene name="TestScene" id="0" order="3" lastModified="10" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
 			<SceneSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
@@ -173,8 +173,8 @@
 			<SceneCurves>
 			</SceneCurves>
 		</Scene>
-		<Scene name="ToiletScene" id="1" order="1" lastModified="-1" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="" Transparency="2">
+		<Scene name="ToiletScene" id="1" order="1" lastModified="10" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
+			<SceneSprite name="" pause="-1" path="Demo-Pictures/20181130_214225.jpg" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="2" tableId="14" LinkAny="F"/>
@@ -260,14 +260,27 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Background" id="1" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Oli" id="1" order="0" lastModified="10" ObjectDirection="-1" ObjectCenter="1385" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="Demo-Pictures\20181130_214225.jpg" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="3" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
+				<point x="1367" y="626"/>
+				<point x="1982" y="1812"/>
+				<point x="2416" y="2180"/>
+				<point x="2784" y="2542"/>
+				<point x="4096" y="2564"/>
+				<point x="4365" y="2037"/>
+				<point x="4371" y="1394"/>
+				<point x="4190" y="785"/>
+				<point x="4448" y="532"/>
+				<point x="4305" y="54"/>
+				<point x="834" y="38"/>
+				<point x="1268" y="571"/>
 			</ObjectPolygon>
 			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
+				<Link parentLink="T" id="0" tableId="7" LinkAny="F"/>
 			</ObjectActions>
 			<ObjectConditions>
 			</ObjectConditions>
@@ -275,7 +288,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
+			<ObjectPosition x="2159" y="1402"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -303,11 +316,22 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="0" versionedId="-1" tableId="7">
+	<Actions newId="2" versionedId="-1" tableId="7">
+		<Action name="Left click" id="0" order="0" lastModified="10" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="0" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="0" versionedId="-1" tableId="8">
+	<ActionParts newId="1" versionedId="-1" tableId="8">
+		<ActionPart name="Current character: Hey, yo this is not the toilette bro. You should go to the first room fo sho." id="0" order="0" lastModified="10" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="7" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="9" versionedId="8" tableId="9">
+	<Animations newId="274" versionedId="8" tableId="9">
 		<Animation name="front" id="1" order="3" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -427,14 +451,14 @@
 	</Dialogs>
 	<DialogParts newId="0" versionedId="-1" tableId="12">
 	</DialogParts>
-	<Sprites newId="1" versionedId="0" tableId="13">
+	<Sprites newId="2" versionedId="0" tableId="13">
 		<Sprite name="Image" id="0" order="0" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="Demo-Pictures/20181130_205457.jpg" Transparency="2">
 				<position x="0" y="0"/>
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="7" versionedId="6" tableId="14">
+	<Texts newId="49" versionedId="6" tableId="14">
 		<Text name="Unnamed" id="0" order="0" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -445,14 +469,14 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="2" order="0" lastModified="-1">
+		<Text name="Unnamed" id="2" order="0" lastModified="10">
 			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
+				<text Text="Oli" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="3" order="1" lastModified="-1">
+		<Text name="Unnamed" id="3" order="1" lastModified="10">
 			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
+				<text Text="Oli" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Unnamed" id="4" order="0" lastModified="-1">
@@ -470,12 +494,17 @@
 				<text Text="" path="" int="0"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="7" order="7" lastModified="10">
+			<TextTextLanguages>
+				<text Text="Hey, yo this is not the toilette bro. You should go to the first room fo sho." path="" int="0"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="0" versionedId="-1" tableId="15">
 	</Cursors>
 	<CommentSets newId="0" versionedId="-1" tableId="16">
 	</CommentSets>
-	<Outfits newId="1" versionedId="0" tableId="17">
+	<Outfits newId="34" versionedId="0" tableId="17">
 		<Outfit name="Unnamed" id="0" order="0" lastModified="-1" OutfitCharacterSpeed="350" OutfitModel="" OutfitCameraHeight="0" OutfitCameraAngle="0" OutfitUseLight="F" OutfitLightPosX="1.000000" OutfitLightPosY="1.000000" OutfitLightPosZ="1.000000" OutfitLightColor="9345433" OutfitModelScaleFactor="100" OutfitModelUseToonShading="F" OutfitModelToonNuances="3" OutfitModelShowOutline="F" OutfitModelOutlineColor="0" OutfitModelOutlineWidth="5" OutfitAmbientLightColor="6717311" OutfitModelShadowVisibility="50" OutfitRandomMinTime="10000" OutfitRandomMaxTime="30000" OutfitModelShadow="2" OutfitModelAmbientOcclusion="50" OutfitSlideWalkAnimation="T" OutfitModelTurnSpeed="100">
 			<OutfitWalkAnimations>
 				<Link parentLink="T" id="1" tableId="9" LinkAny="F"/>
