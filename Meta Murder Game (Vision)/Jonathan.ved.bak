@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <VisionaireAdventure projectType="1" revision="3" version="196">
-	<Game name="" id="1" order="1" lastModified="3" GameId="28516" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
+	<Game name="" id="1" order="1" lastModified="-1" GameId="28516" GameDescription="" GameAbout="" GameIntro="" GameCommandBehaviour="2" GameFadeDelay="600" GameScrollSpeed="300" GameFullScreenIntro="F" GameDraggableItems="F" GameReserved="" GameHoldTime="600" GameFadeEffect="3" GameMinificationFilter="0" GameMagnificationFilter="0" GameAutoHideInterfacesInMenu="T" GameAlwaysAllowSkipText="F" GameExecuteActionsDuringDialog="F" GameAlignCharacterOnImExecution="F" GameComposedFile="" GameSceneComposedFiles="0" GameSceneComposedFile="" GameCharacterComposedFiles="0" GameCharacterComposedFile="" GameMovieComposedFiles="2" GameMovieComposedFile="" GameVersion="" GameDrawActionText="1" GameQuake="F" GameSpeakerTextAlignment="0" GameTextAlignment="2" GameKeepCharacterSpritesDuringMenus="T" GameDisableInteractionDuringAnim="0" GamePictureCacheSize="40" GameInterfaceComposedFiles="0" GameInterfaceComposedFile="" GameGameComposedFiles="0" GameGameComposedFile="" GameVideosEncrypted="F" GameCompanyName="" GameGameName="" GamePreloadPicThreads="3" GamePreloadedPicBufferSize="16384" GamePicBufferSize="120000" GameVideoSubtitleLanguage="" GameVideoAudioLanguage="" GamePreallocatedTextures="-1" GameNearestNeighborInterpolation="F" SpeakerSoundPanFactor="8" GameShowBlackScreenAfterVideo="F" GameSavegameScreenshot="" GameLeftHoldBehaviour="0" GameMiddleClickBehaviour="0" GameRightClickBehaviour="0" GameVideoPauseScreen="" GameExecuteCalledActionImmediately="T" GameIconFile="" GameBuildOptions="" GameSmoothScrolling="F" GameSaveNameOffsetY="-1" GameLeftClickBehaviour="1">
 		<GameSceneLinks>
-			<Link parentLink="T" id="0" tableId="4" LinkAny="F"/>
 		</GameSceneLinks>
 		<GameCharacterLinks>
 		</GameCharacterLinks>
@@ -17,7 +16,7 @@
 		<GameItems>
 		</GameItems>
 		<GameLoading parentLink="T" id="0" tableId="21" LinkAny="F"/>
-		<GameWindowResolution x="1920" y="1080"/>
+		<GameWindowResolution x="640" y="480"/>
 		<GameCursors>
 		</GameCursors>
 		<GameFirstCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -95,69 +94,17 @@
 	</Buttons>
 	<Fonts newId="0" versionedId="-1" tableId="3">
 	</Fonts>
-	<Scenes newId="1" versionedId="-1" tableId="4">
-		<Scene name="ToiletScene" id="0" order="0" lastModified="3" SceneBackgroundMusic="" SceneContinueMusic="F" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="" Transparency="2">
-				<position x="0" y="0"/>
-			</SceneSprite>
-			<SceneName parentLink="T" id="0" tableId="14" LinkAny="F"/>
-			<SceneObjects>
-				<Link parentLink="T" id="0" tableId="6" LinkAny="F"/>
-			</SceneObjects>
-			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<SceneSavegameAreas>
-			</SceneSavegameAreas>
-			<SceneValues>
-			</SceneValues>
-			<SceneConditions>
-			</SceneConditions>
-			<SceneActions>
-			</SceneActions>
-			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<SceneScrollableArea top="0" left="0" bottom="-1" right="-1"/>
-			<SceneWaySystems>
-			</SceneWaySystems>
-			<SceneCurrentWaySystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<SceneActionAreas>
-			</SceneActionAreas>
-			<SceneAudioBusses>
-			</SceneAudioBusses>
-			<SceneTestCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<SceneCurves>
-			</SceneCurves>
-		</Scene>
+	<Scenes newId="0" versionedId="-1" tableId="4">
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="1" versionedId="-1" tableId="6">
-		<Object name="Background" id="0" order="0" lastModified="3" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
-			<ObjectName parentLink="T" id="1" tableId="14" LinkAny="F"/>
-			<ObjectPolygon>
-			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectActions>
-			</ObjectActions>
-			<ObjectConditions>
-			</ObjectConditions>
-			<ObjectAnimations>
-			</ObjectAnimations>
-			<ObjectValues>
-			</ObjectValues>
-			<ObjectPosition x="0" y="0"/>
-			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ObjectSnoopAnimationPos x="0" y="0"/>
-			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</Object>
+	<Objects newId="0" versionedId="-1" tableId="6">
 	</Objects>
 	<Actions newId="0" versionedId="-1" tableId="7">
 	</Actions>
 	<ActionParts newId="0" versionedId="-1" tableId="8">
 	</ActionParts>
-	<Animations newId="1" versionedId="-1" tableId="9">
+	<Animations newId="0" versionedId="-1" tableId="9">
 	</Animations>
 	<Conditions newId="0" versionedId="-1" tableId="10">
 	</Conditions>
@@ -167,17 +114,7 @@
 	</DialogParts>
 	<Sprites newId="0" versionedId="-1" tableId="13">
 	</Sprites>
-	<Texts newId="2" versionedId="-1" tableId="14">
-		<Text name="Unnamed" id="0" order="0" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Unnamed" id="1" order="1" lastModified="-1">
-			<TextTextLanguages>
-				<text Text="" path="" int="0"/>
-			</TextTextLanguages>
-		</Text>
+	<Texts newId="0" versionedId="-1" tableId="14">
 	</Texts>
 	<Cursors newId="0" versionedId="-1" tableId="15">
 	</Cursors>
