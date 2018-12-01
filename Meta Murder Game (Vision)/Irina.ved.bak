@@ -957,7 +957,7 @@
 		</Button>
 	</Buttons>
 	<Fonts newId="3" versionedId="2" tableId="3">
-		<Font name="dialogue_text" id="0" order="0" lastModified="38" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?'-" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="23.000000" FontColor="5197807" FontBorder="T" FontBorderColor="11487344" FontBorderSize="2.000000" FontShadow="T">
+		<Font name="dialogue_text" id="0" order="0" lastModified="38" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!?'-" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="F" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="23.000000" FontColor="15395574" FontBorder="T" FontBorderColor="1052175" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="Buchstaben.png" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
@@ -1032,7 +1032,7 @@
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
-		<Font name="player_text" id="1" order="1" lastModified="38" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?!'-" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="22.000000" FontColor="10258036" FontBorder="T" FontBorderColor="4539845" FontBorderSize="4.000000" FontShadow="T">
+		<Font name="player_text" id="1" order="4" lastModified="38" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?!'-" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="22.000000" FontColor="14603983" FontBorder="T" FontBorderColor="592138" FontBorderSize="4.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="Buchstaben_Player.png" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
@@ -1107,7 +1107,7 @@
 			<FontFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<FontShadowOffset x="1" y="1"/>
 		</Font>
-		<Font name="player_option_text" id="2" order="4" lastModified="38" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?!'-" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="22.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
+		<Font name="player_option_text" id="2" order="1" lastModified="38" FontAlphabet="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789?!'-" FontLetterSpacing="-4" VerticalLetterSpacing="3" FontSpaceWidth="10" FontAutoLineBreak="T" FontLineWidth="100" FontKerning="" FontTrueTypeFont="F" FontTrueTypeFontPath="" FontSize="22.000000" FontColor="16777215" FontBorder="T" FontBorderColor="0" FontBorderSize="2.000000" FontShadow="T">
 			<FontSprite name="" pause="-1" path="Buchstaben_Player_option.png" Transparency="2">
 				<position x="0" y="0"/>
 			</FontSprite>
@@ -1367,7 +1367,6 @@
 			<SceneConditions>
 			</SceneConditions>
 			<SceneActions>
-				<Link parentLink="T" id="33" tableId="7" LinkAny="F"/>
 			</SceneActions>
 			<SceneSavegameFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -2187,13 +2186,6 @@
 				<Link parentLink="T" id="52" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
-		<Action name="At beginning of scene" id="33" order="0" lastModified="38" ActionExecutionType="31">
-			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<ActionActionParts>
-				<Link parentLink="T" id="60" tableId="8" LinkAny="F"/>
-			</ActionActionParts>
-		</Action>
 	</Actions>
 	<ActionParts newId="61" versionedId="39" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
@@ -2338,10 +2330,6 @@
 		</ActionPart>
 		<ActionPart name="If condition 'Condition0' is true" id="58" order="2" lastModified="38" ActionPartCommand="140" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="6" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Start dialog 'toiletDialogue'" id="60" order="0" lastModified="38" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="2" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
