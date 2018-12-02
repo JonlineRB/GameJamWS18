@@ -2057,7 +2057,7 @@
 			</SceneCurves>
 		</Scene>
 		<Scene name="EndScene" id="14" order="5" lastModified="43" SceneBackgroundMusic="" SceneContinueMusic="T" CDTrack="-1" SceneMusicVolume="0" SceneMusicBalance="0" SceneScrollOnEdges="F" SceneIsMenu="F" SceneSavegameScrollStep="1" SceneLightMap="" SceneSavegameScreenshot="">
-			<SceneSprite name="" pause="-1" path="AptlySized/Background/Ending.jpg" Transparency="2">
+			<SceneSprite name="" pause="-1" path="AptlySized/Background/secretendscreen.png" Transparency="2">
 				<position x="0" y="0"/>
 			</SceneSprite>
 			<SceneName parentLink="T" id="315" tableId="14" LinkAny="F"/>
@@ -2157,7 +2157,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="356" y="648"/>
+			<ObjectPosition x="10" y="16"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -2717,7 +2717,7 @@
 			</ObjectAnimations>
 			<ObjectValues>
 			</ObjectValues>
-			<ObjectPosition x="968" y="594"/>
+			<ObjectPosition x="898" y="644"/>
 			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectSnoopAnimationPos x="0" y="0"/>
@@ -3392,6 +3392,8 @@
 				<Link parentLink="T" id="216" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="217" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="218" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="247" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="248" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="41" order="41" lastModified="-1" ActionExecutionType="-1">
@@ -3756,7 +3758,7 @@
 			</ActionActionParts>
 		</Action>
 	</Actions>
-	<ActionParts newId="247" versionedId="50" tableId="8">
+	<ActionParts newId="249" versionedId="50" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3873,7 +3875,7 @@
 			<ActionPartLink parentLink="T" id="141" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik: You remember they are in the glass room 2, don't you?" id="57" order="6" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: You remember in witch Group Room they are, don't you?" id="57" order="6" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="142" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3897,7 +3899,7 @@
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik: Find them or you are fired." id="68" order="4" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: Find them or you are fired." id="68" order="5" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="161" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3905,15 +3907,15 @@
 			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'hendrikReaction' to false" id="70" order="5" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition 'hendrikReaction' to false" id="70" order="7" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="14" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="71" order="6" lastModified="43" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="71" order="8" lastModified="43" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Start dialog 'fishDialog'" id="72" order="7" lastModified="43" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Start dialog 'fishDialog'" id="72" order="9" lastModified="43" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="5" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4093,7 +4095,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'TerriblePokeFlute.mp3'" id="137" order="1" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX\TerriblePokeFlute.mp3" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound 'TerriblePokeFlute.mp3'" id="137" order="1" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX/TerriblePokeFlute.mp3" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4273,7 +4275,7 @@
 			<ActionPartLink parentLink="F" id="6" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Narrator: It contains a lockernumber." id="195" order="6" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Narrator: It contains a locker number." id="195" order="6" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="268" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4321,15 +4323,15 @@
 			<ActionPartLink parentLink="T" id="287" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik: They need to be around here somewhere." id="216" order="2" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: They need to be around here somewhere." id="216" order="3" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="288" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik: What do you mean they are missing?!" id="217" order="1" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: What do you mean they are missing?!" id="217" order="2" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="289" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik: I saw them put something into one of the lockers today, so they can't be far. " id="218" order="3" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: I saw them put something into one of the lockers today, so they can't be far. " id="218" order="4" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="290" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4345,7 +4347,7 @@
 			<ActionPartLink parentLink="T" id="293" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound 'YouShallNotPass.wav'" id="223" order="0" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX\YouShallNotPass.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound 'YouShallNotPass.wav'" id="223" order="0" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX/YouShallNotPass.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4433,8 +4435,16 @@
 			<ActionPartLink parentLink="F" id="18" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Show character 'Hendrik'" id="247" order="1" lastModified="43" ActionPartCommand="98" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide character 'Hendrik'" id="248" order="6" lastModified="43" ActionPartCommand="98" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="206" versionedId="100" tableId="9">
+	<Animations newId="209" versionedId="100" tableId="9">
 		<Animation name="front" id="5" order="1" lastModified="43" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="234" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -5320,12 +5330,12 @@
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="288" path="AptlySized/CharacterSprites/HendrikWtf.png" Transparency="2">
-					<position x="296" y="-112"/>
+				<sprite name="" pause="0" path="AptlySized/CharacterSprites/hendrikwtf_new3.png" Transparency="2">
+					<position x="619" y="98"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="582" y="464"/>
+			<AnimationCenter x="310" y="392"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -5694,23 +5704,6 @@
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationCenter x="0" y="0"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="front2" id="137" order="0" lastModified="43" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="0" path="AptlySized/CharacterSprites/Robin_sad.png" Transparency="2">
-					<position x="164" y="-5"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="596" y="554"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -6096,16 +6089,16 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="front1" id="168" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="front1" id="168" order="0" lastModified="43" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
-				<sprite name="" pause="0" path="AptlySized/CharacterSprites/Robin_sad.png" Transparency="2">
-					<position x="164" y="-5"/>
+				<sprite name="" pause="29742" path="AptlySized/CharacterSprites/Robin_sad_new.png" Transparency="2">
+					<position x="656" y="47"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="596" y="554"/>
+			<AnimationCenter x="330" y="406"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -6169,33 +6162,16 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
-		<Animation name="front" id="177" order="0" lastModified="43" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+		<Animation name="front1" id="179" order="0" lastModified="43" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<AnimationSprites>
 				<sprite name="" pause="0" path="AptlySized/CharacterSprites/Robin_happy.png" Transparency="2">
-					<position x="166" y="0"/>
+					<position x="68" y="-120"/>
 				</sprite>
 			</AnimationSprites>
 			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="596" y="554"/>
-			<AnimationPropertyFrames>
-			</AnimationPropertyFrames>
-			<AnimationWalkSteps>
-			</AnimationWalkSteps>
-			<AnimationPauses>
-			</AnimationPauses>
-		</Animation>
-		<Animation name="front1" id="179" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
-			<AnimationPosition x="0" y="0"/>
-			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationSprites>
-				<sprite name="" pause="0" path="AptlySized/CharacterSprites/Robin_happy.png" Transparency="2">
-					<position x="166" y="0"/>
-				</sprite>
-			</AnimationSprites>
-			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-			<AnimationCenter x="596" y="554"/>
+			<AnimationCenter x="330" y="406"/>
 			<AnimationPropertyFrames>
 			</AnimationPropertyFrames>
 			<AnimationWalkSteps>
@@ -6461,6 +6437,40 @@
 			<AnimationPauses>
 			</AnimationPauses>
 		</Animation>
+		<Animation name="front" id="207" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="29742" path="AptlySized/CharacterSprites/Robin_sad_new.png" Transparency="2">
+					<position x="656" y="47"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="330" y="406"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
+		<Animation name="front" id="208" order="0" lastModified="-1" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="20" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
+			<AnimationPosition x="0" y="0"/>
+			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationSprites>
+				<sprite name="" pause="0" path="AptlySized/CharacterSprites/Robin_happy.png" Transparency="2">
+					<position x="68" y="-120"/>
+				</sprite>
+			</AnimationSprites>
+			<AnimationMirror parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<AnimationCenter x="330" y="406"/>
+			<AnimationPropertyFrames>
+			</AnimationPropertyFrames>
+			<AnimationWalkSteps>
+			</AnimationWalkSteps>
+			<AnimationPauses>
+			</AnimationPauses>
+		</Animation>
 	</Animations>
 	<Conditions newId="30" versionedId="10" tableId="10">
 		<Condition name="Fisch_picked_up" id="1" order="0" lastModified="43" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
@@ -6586,7 +6596,7 @@
 			</ConditionConditionsNegate>
 		</Condition>
 	</Conditions>
-	<Dialogs newId="19" versionedId="3" tableId="11">
+	<Dialogs newId="18" versionedId="3" tableId="11">
 		<Dialog name="passwordDialog" id="0" order="0" lastModified="43">
 			<DialogDialogParts>
 				<Link parentLink="T" id="5" tableId="12" LinkAny="F"/>
@@ -6673,7 +6683,7 @@
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
 	</Dialogs>
-	<DialogParts newId="29" versionedId="3" tableId="12">
+	<DialogParts newId="28" versionedId="3" tableId="12">
 		<DialogPart name="1. " id="0" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="106" tableId="14" LinkAny="F"/>
@@ -7509,32 +7519,32 @@
 		</Text>
 		<Text name="Id: 111 - " id="111" order="112" lastModified="-1">
 		</Text>
-		<Text name="Id: 117 - Anonymus: start_dialogue: Id: 131 - Anonymus: start_dialogue: Id: 131 - Anonymus: start_dialogue: Unnamed" id="117" order="131" lastModified="43">
+		<Text name="Id: 117 - Anonymus: start_dialogue: Id: 117 - Anonymus: start_dialogue: Id: 131 - Anonymus: start_dialogue: Id: 131 - Anonymus: start_dialogue: Unnamed" id="117" order="131" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*Knock*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 118 - Anonymus: start_dialogue: Id: 132 - Anonymus: start_dialogue: Id: 132 - Anonymus: start_dialogue: Unnamed" id="118" order="132" lastModified="43">
+		<Text name="Id: 118 - Anonymus: start_dialogue: Id: 118 - Anonymus: start_dialogue: Id: 132 - Anonymus: start_dialogue: Id: 132 - Anonymus: start_dialogue: Unnamed" id="118" order="132" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Hey! This stall is occupied! But would you mind bringing me some toilet paper?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 119 - Anonymus: start_dialogue: Id: 133 - Anonymus: start_dialogue: Id: 133 - Anonymus: start_dialogue: Unnamed" id="119" order="133" lastModified="-1">
+		<Text name="Id: 119 - Anonymus: start_dialogue: Id: 119 - Anonymus: start_dialogue: Id: 133 - Anonymus: start_dialogue: Id: 133 - Anonymus: start_dialogue: Unnamed" id="119" order="133" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 129 - Player: passwordDialog: Unnamed" id="129" order="129" lastModified="43">
+		<Text name="Id: 129 - Player: passwordDialog: Id: 129 - Player: passwordDialog: Unnamed" id="129" order="129" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Input password" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 130 - Player: passwordDialog: Unnamed" id="130" order="130" lastModified="43">
+		<Text name="Id: 130 - Player: passwordDialog: Id: 130 - Player: passwordDialog: Unnamed" id="130" order="130" lastModified="43">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 131 - Player: passwordDialog: Unnamed" id="131" order="131" lastModified="-1">
+		<Text name="Id: 131 - Player: passwordDialog: Id: 131 - Player: passwordDialog: Unnamed" id="131" order="131" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -7544,22 +7554,22 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 137 - Hendrik: startDialog: Unnamed" id="137" order="137" lastModified="43">
+		<Text name="Id: 137 - Hendrik: startDialog: Id: 137 - Hendrik: startDialog: Unnamed" id="137" order="137" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Why don't you look yourself?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 138 - Hendrik: startDialog: Unnamed" id="138" order="138" lastModified="43">
+		<Text name="Id: 138 - Hendrik: startDialog: Id: 138 - Hendrik: startDialog: Unnamed" id="138" order="138" lastModified="43">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 139 - Hendrik: startDialog: Unnamed" id="139" order="139" lastModified="-1">
+		<Text name="Id: 139 - Hendrik: startDialog: Id: 139 - Hendrik: startDialog: Unnamed" id="139" order="139" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 140 - Action: Hendrik: Huh? I have far more important things to do. Kern-Orga stuff you know." id="140" order="140" lastModified="43">
+		<Text name="Id: 140 - Action: Hendrik: Huh? I have far more important things to do." id="140" order="140" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Huh? I have far more important things to do." path="" int="1"/>
 			</TextTextLanguages>
@@ -7569,9 +7579,9 @@
 				<text Text="Go check on group 11." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 142 - Action: Hendrik: You remember they are in the glass room 2, don't you?&lt;br/&gt;" id="142" order="141" lastModified="43">
+		<Text name="Id: 142 - Action: Hendrik: You remember they are in the glass room 2, don't you?" id="142" order="141" lastModified="43">
 			<TextTextLanguages>
-				<text Text="You remember they are in the glass room 2, don't you?" path="" int="1"/>
+				<text Text="You remember in witch Group Room they are, don't you?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 145 - GroupWorkRoom: bluescreenLaptop: 'click_left' executed (immediate)" id="145" order="145" lastModified="43">
@@ -7584,32 +7594,32 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 148 - Hendrik: fishDialog: Unnamed" id="148" order="148" lastModified="43">
+		<Text name="Id: 148 - Hendrik: fishDialog: Id: 148 - Hendrik: fishDialog: Unnamed" id="148" order="148" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*slap with fish*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 149 - Hendrik: fishDialog: Unnamed" id="149" order="149" lastModified="43">
+		<Text name="Id: 149 - Hendrik: fishDialog: Id: 149 - Hendrik: fishDialog: Unnamed" id="149" order="149" lastModified="43">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 150 - Hendrik: fishDialog: Unnamed" id="150" order="150" lastModified="-1">
+		<Text name="Id: 150 - Hendrik: fishDialog: Id: 150 - Hendrik: fishDialog: Unnamed" id="150" order="150" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 154 - Hendrik: fishDialog: Unnamed" id="154" order="154" lastModified="43">
+		<Text name="Id: 154 - Hendrik: fishDialog: Id: 154 - Hendrik: fishDialog: Unnamed" id="154" order="154" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*Try to interrupt*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 155 - Hendrik: fishDialog: Unnamed" id="155" order="155" lastModified="43">
+		<Text name="Id: 155 - Hendrik: fishDialog: Id: 155 - Hendrik: fishDialog: Unnamed" id="155" order="155" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*not reacting*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 156 - Hendrik: fishDialog: Unnamed" id="156" order="156" lastModified="-1">
+		<Text name="Id: 156 - Hendrik: fishDialog: Id: 156 - Hendrik: fishDialog: Unnamed" id="156" order="156" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -7669,17 +7679,17 @@
 				<text Text="Robin" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 176 - Robin: playDialog: Unnamed" id="176" order="176" lastModified="43">
+		<Text name="Id: 176 - Robin: playDialog: Id: 176 - Robin: playDialog: Unnamed" id="176" order="176" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Why are you not playing with them?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 177 - Robin: playDialog: Unnamed" id="177" order="177" lastModified="43">
+		<Text name="Id: 177 - Robin: playDialog: Id: 177 - Robin: playDialog: Unnamed" id="177" order="177" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Because we are short one controller." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 178 - Robin: playDialog: Unnamed" id="178" order="178" lastModified="-1">
+		<Text name="Id: 178 - Robin: playDialog: Id: 178 - Robin: playDialog: Unnamed" id="178" order="178" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -7714,7 +7724,7 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 185 - Action: Narrator: You give him the controller and he starts playing with the others. After a round he leaves satisfied." id="185" order="185" lastModified="43">
+		<Text name="Id: 185 - Action: Narrator: You give him the controller and he starts playing with the others." id="185" order="185" lastModified="43">
 			<TextTextLanguages>
 				<text Text="You give him the controller and he starts playing with the others." path="" int="1"/>
 			</TextTextLanguages>
@@ -7724,17 +7734,17 @@
 				<text Text="YOU SHALL NOT PASS!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 188 - Gandalf: passDialog: Unnamed" id="188" order="188" lastModified="43">
+		<Text name="Id: 188 - Gandalf: passDialog: Id: 188 - Gandalf: passDialog: Unnamed" id="188" order="188" lastModified="43">
 			<TextTextLanguages>
 				<text Text="What is wrong with you?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 189 - Gandalf: passDialog: Unnamed" id="189" order="189" lastModified="43">
+		<Text name="Id: 189 - Gandalf: passDialog: Id: 189 - Gandalf: passDialog: Unnamed" id="189" order="189" lastModified="43">
 			<TextTextLanguages>
 				<text Text="I am waiting for my other 2 team members and won't leave the spot until they are here." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 190 - Gandalf: passDialog: Unnamed" id="190" order="190" lastModified="-1">
+		<Text name="Id: 190 - Gandalf: passDialog: Id: 190 - Gandalf: passDialog: Unnamed" id="190" order="190" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -7769,17 +7779,17 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 197 - Anonymus: start_dialogue: Unnamed" id="197" order="197" lastModified="43">
+		<Text name="Id: 197 - Anonymus: start_dialogue: Id: 197 - Anonymus: start_dialogue: Unnamed" id="197" order="197" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*Kick down the door*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 198 - Anonymus: start_dialogue: Unnamed" id="198" order="198" lastModified="43">
+		<Text name="Id: 198 - Anonymus: start_dialogue: Id: 198 - Anonymus: start_dialogue: Unnamed" id="198" order="198" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Stop it! This is not Munchkin!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 199 - Anonymus: start_dialogue: Unnamed" id="199" order="199" lastModified="-1">
+		<Text name="Id: 199 - Anonymus: start_dialogue: Id: 199 - Anonymus: start_dialogue: Unnamed" id="199" order="199" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -7804,32 +7814,32 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 214 - Lockers: unlock: Unnamed" id="214" order="214" lastModified="43">
+		<Text name="Id: 214 - Lockers: unlock: Id: 214 - Lockers: unlock: Unnamed" id="214" order="214" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*open locker 42*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 215 - Lockers: unlock: Unnamed" id="215" order="215" lastModified="-1">
+		<Text name="Id: 215 - Lockers: unlock: Id: 215 - Lockers: unlock: Unnamed" id="215" order="215" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 216 - Lockers: unlock: Unnamed" id="216" order="216" lastModified="-1">
+		<Text name="Id: 216 - Lockers: unlock: Id: 216 - Lockers: unlock: Unnamed" id="216" order="216" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 217 - Lockers: unlock: Unnamed" id="217" order="217" lastModified="43">
+		<Text name="Id: 217 - Lockers: unlock: Id: 217 - Lockers: unlock: Unnamed" id="217" order="217" lastModified="43">
 			<TextTextLanguages>
 				<text Text="exit" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 218 - Lockers: unlock: Unnamed" id="218" order="218" lastModified="-1">
+		<Text name="Id: 218 - Lockers: unlock: Id: 218 - Lockers: unlock: Unnamed" id="218" order="218" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 219 - Lockers: unlock: Unnamed" id="219" order="219" lastModified="-1">
+		<Text name="Id: 219 - Lockers: unlock: Id: 219 - Lockers: unlock: Unnamed" id="219" order="219" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -7854,37 +7864,37 @@
 				<text Text="After eating all the pizza, it fell fast asleep." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 224 - Snorlax: Dialog0: Unnamed" id="224" order="224" lastModified="43">
+		<Text name="Id: 224 - Snorlax: Dialog0: Id: 224 - Snorlax: Dialog0: Unnamed" id="224" order="224" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*play flute*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 225 - Snorlax: Dialog0: Unnamed" id="225" order="225" lastModified="-1">
+		<Text name="Id: 225 - Snorlax: Dialog0: Id: 225 - Snorlax: Dialog0: Unnamed" id="225" order="225" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 226 - Snorlax: Dialog0: Unnamed" id="226" order="226" lastModified="-1">
+		<Text name="Id: 226 - Snorlax: Dialog0: Id: 226 - Snorlax: Dialog0: Unnamed" id="226" order="226" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 227 - Snorlax: Dialog0: Unnamed" id="227" order="227" lastModified="43">
+		<Text name="Id: 227 - Snorlax: Dialog0: Id: 227 - Snorlax: Dialog0: Unnamed" id="227" order="227" lastModified="43">
 			<TextTextLanguages>
 				<text Text="exit" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 228 - Snorlax: Dialog0: Unnamed" id="228" order="228" lastModified="-1">
+		<Text name="Id: 228 - Snorlax: Dialog0: Id: 228 - Snorlax: Dialog0: Unnamed" id="228" order="228" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 229 - Snorlax: Dialog0: Unnamed" id="229" order="229" lastModified="-1">
+		<Text name="Id: 229 - Snorlax: Dialog0: Id: 229 - Snorlax: Dialog0: Unnamed" id="229" order="229" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 230 - Action: Narrator: Snorlax wakes at your magnificant music and walks away.&lt;br/&gt;Now you can go through and search outside." id="230" order="230" lastModified="43">
+		<Text name="Id: 230 - Action: Narrator: Snorlax wakes at your magnificant music and walks away." id="230" order="230" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Snorlax wakes at your magnificant music and walks away." path="" int="1"/>
 			</TextTextLanguages>
@@ -8011,7 +8021,7 @@
 		</Text>
 		<Text name="Id: 268 - Left click: Narrator: It contains a lockernumber." id="268" order="266" lastModified="43">
 			<TextTextLanguages>
-				<text Text="It contains a lockernumber." path="" int="1"/>
+				<text Text="It contains a locker number." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 269 - Left click: Narrator: You write it down." id="269" order="266" lastModified="43">
@@ -8019,12 +8029,12 @@
 				<text Text="You write it down." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 271 - : Scene1" id="271" order="271" lastModified="43">
+		<Text name="Id: 271 - : StartScene" id="271" order="271" lastModified="43">
 			<TextTextLanguages>
 				<text Text="StartMenu" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 272 - Scene1: Object0" id="272" order="272" lastModified="-1">
+		<Text name="Id: 272 - StartScene: startButton" id="272" order="272" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -8039,167 +8049,167 @@
 				<text Text="You secretly take one Xbox controller." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="277" order="277" lastModified="43">
+		<Text name="Id: 277 - Anonymus: start_dialogue: And where ..." id="277" order="277" lastModified="43">
 			<TextTextLanguages>
 				<text Text="And where can I find the toilet paper?" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="278" order="278" lastModified="43">
+		<Text name="Id: 278 - Anonymus: start_dialogue: Fuck if I ..." id="278" order="278" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Fuck if I know? Ask those incompetent orga-people." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="279" order="279" lastModified="-1">
+		<Text name="Id: 279 - Anonymus: start_dialogue: " id="279" order="279" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 140 - Action: Hendrik: Huh? I have far more important things to do. Kern-Orga stuff you know." id="287" order="140" lastModified="43">
+		<Text name="Id: 287 - Action: Hendrik: Kern-Orga stuff you know." id="287" order="140" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Kern-Orga stuff you know." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 161 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="288" order="161" lastModified="43">
+		<Text name="Id: 288 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="288" order="161" lastModified="43">
 			<TextTextLanguages>
 				<text Text="They need to be around here somewhere." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 161 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="289" order="161" lastModified="43">
+		<Text name="Id: 289 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="289" order="161" lastModified="43">
 			<TextTextLanguages>
 				<text Text="What do you mean they are missing?!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 161 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="290" order="161" lastModified="43">
+		<Text name="Id: 290 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="290" order="161" lastModified="43">
 			<TextTextLanguages>
 				<text Text="I saw them put something into one of the lockers today, so they can't be far. " path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 185 - Action: Narrator: You give him the controller and he starts playing with the others. After a round he leaves satisfied." id="291" order="185" lastModified="43">
+		<Text name="Id: 291 - Action: Narrator: After a round he leaves satisfied." id="291" order="185" lastModified="43">
 			<TextTextLanguages>
 				<text Text="After a round he leaves satisfied." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="292" order="292" lastModified="43">
+		<Text name="Id: 292 - Action: Gandalf: If you want to pass, you need to find them." id="292" order="292" lastModified="43">
 			<TextTextLanguages>
 				<text Text="If you want to pass, you need to find them." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 230 - Action: Narrator: Snorlax wakes at your magnificant music and walks away.&lt;br/&gt;Now you can go through and search outside." id="293" order="230" lastModified="43">
+		<Text name="Id: 293 - Action: Narrator: Now you can go through and search outside." id="293" order="230" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Now you can go through and search outside." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="295" order="295" lastModified="-1">
+		<Text name="Id: 295 - LectureHall2: group" id="295" order="295" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 170 - At beginning of scene: PersonA: OMG this game is amazing" id="297" order="170" lastModified="43">
+		<Text name="Id: 297 - LectureHall2: group: 'click_left' executed" id="297" order="170" lastModified="43">
 			<TextTextLanguages>
 				<text Text="OMG this game is amazing." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 171 - At beginning of scene: PersonB: I am gonna getcha." id="298" order="170" lastModified="43">
+		<Text name="Id: 298 - LectureHall2: group: 'click_left' executed" id="298" order="170" lastModified="43">
 			<TextTextLanguages>
 				<text Text="I am gonna getcha!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 172 - At beginning of scene: PersonC: DIEDIEDIEIDIEDIE." id="299" order="170" lastModified="43">
+		<Text name="Id: 299 - LectureHall2: group: 'click_left' executed" id="299" order="170" lastModified="43">
 			<TextTextLanguages>
 				<text Text="DIEDIEDIEIDIEDIE!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 173 - At beginning of scene: Robin: Come on guys I want to play too." id="300" order="173" lastModified="-1">
+		<Text name="Id: 300 - LectureHall2: group: 'click_left' executed" id="300" order="173" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Come on guys I want to play too." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="301" order="301" lastModified="43">
+		<Text name="Id: 301 - Hendrik: fishDialog: Unnamed" id="301" order="301" lastModified="43">
 			<TextTextLanguages>
 				<text Text="*Talk to Hendrik*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="302" order="302" lastModified="-1">
+		<Text name="Id: 302 - Hendrik: fishDialog: Unnamed" id="302" order="302" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="303" order="303" lastModified="-1">
+		<Text name="Id: 303 - Hendrik: fishDialog: Unnamed" id="303" order="303" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="304" order="304" lastModified="43">
+		<Text name="Id: 304 - Action: Narrator: You should let him alone. He seems busy." id="304" order="304" lastModified="43">
 			<TextTextLanguages>
 				<text Text="You should let him alone. He seems busy." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 206 - Anonymus: start_dialogue: Unnamed" id="305" order="206" lastModified="-1">
+		<Text name="Id: 305 - Anonymus: start_dialogue: *Give toil..." id="305" order="206" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="*Give toilet paper*" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 209 - Action: Narrator: He finishes and leaves." id="306" order="209" lastModified="-1">
+		<Text name="Id: 306 - Action: Narrator: He finishes and leaves." id="306" order="209" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="He finishes and leaves." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 207 - Anonymus: start_dialogue: Unnamed" id="307" order="207" lastModified="-1">
+		<Text name="Id: 307 - Anonymus: start_dialogue: Thank you!" id="307" order="207" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Thank you!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 208 - Anonymus: start_dialogue: Unnamed" id="308" order="208" lastModified="-1">
+		<Text name="Id: 308 - Anonymus: start_dialogue: " id="308" order="208" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 144 - Action: Hendrik: The project deadline is drawing near, go check on group 11. Go my minion." id="313" order="144" lastModified="-1">
+		<Text name="Id: 313 - StartScene: startButton: Left click" id="313" order="144" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="The project deadline is drawing near, go check on group 11." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Id: 144 - Action: Hendrik: The project deadline is drawing near, go check on group 11. Go my minion." id="314" order="144" lastModified="-1">
+		<Text name="Id: 314 - StartScene: startButton: Left click" id="314" order="144" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="Go my minion!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="315" order="315" lastModified="-1">
+		<Text name="Id: 315 - : EndScene" id="315" order="315" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="316" order="316" lastModified="-1">
+		<Text name="Id: 316 - EndScene: " id="316" order="316" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="317" order="317" lastModified="43">
+		<Text name="Id: 317 - At beginning of scene: End1: Oh hey there, you finally found us!" id="317" order="317" lastModified="43">
 			<TextTextLanguages>
 				<text Text="Oh hey there, you finally found us!" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="318" order="317" lastModified="43">
+		<Text name="Id: 318 - At beginning of scene: End2: We actually hid here at the pool to create a reason for you to search us," id="318" order="317" lastModified="43">
 			<TextTextLanguages>
 				<text Text="We actually hid here at the pool to create a reason for you to search us," path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="319" order="317" lastModified="43">
+		<Text name="Id: 319 - At beginning of scene: End1: And no, we don’t care about the fourth wall." id="319" order="317" lastModified="43">
 			<TextTextLanguages>
 				<text Text="And no, we don’t care about the fourth wall." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="320" order="317" lastModified="43">
+		<Text name="Id: 320 - At beginning of scene: End2: ultimately giving this whole game a purpose." id="320" order="317" lastModified="43">
 			<TextTextLanguages>
 				<text Text="ultimately giving this whole game a purpose." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="321" order="321" lastModified="-1">
+		<Text name="Id: 321 - : End1" id="321" order="321" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
-		<Text name="Unnamed" id="323" order="321" lastModified="-1">
+		<Text name="Id: 323 - : End2" id="323" order="321" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
@@ -8511,7 +8521,7 @@
 			<OutfitCharacterAnimations>
 			</OutfitCharacterAnimations>
 			<OutfitStandingAnimations>
-				<Link parentLink="T" id="137" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="207" tableId="9" LinkAny="F"/>
 			</OutfitStandingAnimations>
 			<OutfitModelTextures>
 			</OutfitModelTextures>
@@ -8589,7 +8599,7 @@
 			<OutfitCharacterAnimations>
 			</OutfitCharacterAnimations>
 			<OutfitStandingAnimations>
-				<Link parentLink="T" id="177" tableId="9" LinkAny="F"/>
+				<Link parentLink="T" id="208" tableId="9" LinkAny="F"/>
 			</OutfitStandingAnimations>
 			<OutfitModelTextures>
 			</OutfitModelTextures>
@@ -8665,7 +8675,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="8" versionedId="-1" tableId="28">
+	<AnimationFrames newId="12" versionedId="-1" tableId="28">
 		<AnimationFrame name="Slap - Property Frame" id="5" order="0" lastModified="43" AnimationFrameIndex="1" AnimationFrameSound="SoundFX/395348__ihitokage__slap-3.ogg" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
