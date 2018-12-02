@@ -39,6 +39,7 @@
 			<Link parentLink="T" id="5" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="6" tableId="1" LinkAny="F"/>
 			<Link parentLink="T" id="7" tableId="1" LinkAny="F"/>
+			<Link parentLink="T" id="8" tableId="1" LinkAny="F"/>
 		</GameInterfaces>
 		<GameFontLinks>
 			<Link parentLink="T" id="0" tableId="3" LinkAny="F"/>
@@ -193,6 +194,7 @@
 				<Link parentLink="F" id="2" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="6" tableId="1" LinkAny="F"/>
 				<Link parentLink="F" id="7" tableId="1" LinkAny="F"/>
+				<Link parentLink="F" id="8" tableId="1" LinkAny="F"/>
 			</CharacterInterfaces>
 			<CharacterFont parentLink="F" id="1" tableId="3" LinkAny="F"/>
 			<CharacterCurrentOutfit parentLink="F" id="3" tableId="17" LinkAny="F"/>
@@ -844,7 +846,7 @@
 			<CharacterAudioBus parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Character>
 	</Characters>
-	<Interfaces newId="8" versionedId="5" tableId="1">
+	<Interfaces newId="10" versionedId="5" tableId="1">
 		<Interface name="cursor" id="0" order="0" lastModified="-1" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
 			<InterfaceSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -1033,8 +1035,28 @@
 			</InterfaceValues>
 			<InterfaceInterfaceClass parentLink="F" id="7" tableId="31" LinkAny="F"/>
 		</Interface>
+		<Interface name="optionMenu" id="8" order="9" lastModified="43" InterfaceScrollStepSize="1" InterfaceDisplacement="1" InterfaceSize="-1" InterfaceDrawActionText="F" InterfaceShowAlways="F">
+			<InterfaceSprite name="" pause="-1" path="AptlySized/Tutorial.png" Transparency="2">
+				<position x="0" y="0"/>
+			</InterfaceSprite>
+			<InterfaceButtons>
+				<Link parentLink="T" id="21" tableId="2" LinkAny="F"/>
+			</InterfaceButtons>
+			<InterfaceStandardCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceOffset x="0" y="0"/>
+			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
+			<InterfaceBorder>
+			</InterfaceBorder>
+			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<InterfaceConditions>
+			</InterfaceConditions>
+			<InterfaceValues>
+			</InterfaceValues>
+			<InterfaceInterfaceClass parentLink="F" id="3" tableId="31" LinkAny="F"/>
+		</Interface>
 	</Interfaces>
-	<Buttons newId="21" versionedId="15" tableId="2">
+	<Buttons newId="22" versionedId="15" tableId="2">
 		<Button name="click_left" id="0" order="0" lastModified="-1" ButtonType="3" ButtonCommandType="0" ButtonUse="0" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="T" ButtonValueOperator="-1" ButtonValueInt="-1">
 			<ButtonActiveSprite parentLink="T" id="1" tableId="13" LinkAny="F"/>
 			<ButtonInactiveSprite parentLink="T" id="2" tableId="13" LinkAny="F"/>
@@ -1453,6 +1475,29 @@
 			</ButtonPolygon>
 			<ButtonActions>
 				<Link parentLink="T" id="65" tableId="7" LinkAny="F"/>
+			</ButtonActions>
+			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonAnimations>
+			</ButtonAnimations>
+			<ButtonGroup>
+			</ButtonGroup>
+			<ButtonValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Button>
+		<Button name="quitGame" id="21" order="0" lastModified="43" ButtonType="4" ButtonCommandType="0" ButtonUse="2" ButtonUseOnCurrentCharacter="F" ButtonConditionNegate="F" ButtonDraggable="F" ButtonValueOperator="-1" ButtonValueInt="-1">
+			<ButtonActiveSprite parentLink="T" id="60" tableId="13" LinkAny="F"/>
+			<ButtonInactiveSprite parentLink="T" id="61" tableId="13" LinkAny="F"/>
+			<ButtonCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ButtonName parentLink="T" id="324" tableId="14" LinkAny="F"/>
+			<ButtonConjunction parentLink="T" id="325" tableId="14" LinkAny="F"/>
+			<ButtonPolygon>
+				<point x="1629" y="767"/>
+				<point x="1809" y="767"/>
+				<point x="1809" y="947"/>
+				<point x="1625" y="947"/>
+			</ButtonPolygon>
+			<ButtonActions>
+				<Link parentLink="T" id="86" tableId="7" LinkAny="F"/>
 			</ButtonActions>
 			<ButtonCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ButtonAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3183,7 +3228,7 @@
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
 	</Objects>
-	<Actions newId="86" versionedId="31" tableId="7">
+	<Actions newId="87" versionedId="31" tableId="7">
 		<Action name="Called by other action" id="0" order="0" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3243,6 +3288,7 @@
 				<Link parentLink="T" id="113" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="160" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="165" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="253" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Space" id="10" order="0" lastModified="23" ActionExecutionType="32">
@@ -3257,6 +3303,8 @@
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
+				<Link parentLink="T" id="251" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="252" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="12" order="0" lastModified="-1" ActionExecutionType="7">
@@ -3731,6 +3779,7 @@
 			<ActionActionParts>
 				<Link parentLink="T" id="231" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="232" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="249" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Left click" id="84" order="0" lastModified="43" ActionExecutionType="7">
@@ -3757,8 +3806,15 @@
 				<Link parentLink="T" id="246" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="Left click" id="86" order="0" lastModified="43" ActionExecutionType="7">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="250" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="249" versionedId="50" tableId="8">
+	<ActionParts newId="254" versionedId="50" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3787,7 +3843,7 @@
 			<ActionPartLink parentLink="F" id="2" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hide 'Inventory'" id="12" order="8" lastModified="23" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hide 'Inventory'" id="12" order="9" lastModified="23" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="31" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4379,11 +4435,11 @@
 			<ActionPartLink parentLink="F" id="16" tableId="17" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Narrator: He finishes and leaves." id="231" order="0" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Narrator: He finishes and leaves." id="231" order="1" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="306" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'stillShitting' to false" id="232" order="1" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition 'stillShitting' to false" id="232" order="2" lastModified="-1" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="19" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4443,8 +4499,28 @@
 			<ActionPartLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
+		<ActionPart name="Play sound 'ToiletFlush.wav'" id="249" order="0" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX\ToiletFlush.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Quit game" id="250" order="0" lastModified="43" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Show/Hide 'Options interface'" id="251" order="0" lastModified="43" ActionPartCommand="56" ActionPartPath="" ActionPartInt="2" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound 'paper flip.wav'" id="252" order="1" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX\paper flip.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'Options interface'" id="253" order="8" lastModified="43" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="3" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
 	</ActionParts>
-	<Animations newId="209" versionedId="100" tableId="9">
+	<Animations newId="210" versionedId="100" tableId="9">
 		<Animation name="front" id="5" order="1" lastModified="43" AnimationLoopRandom="F" AnimationNumberOfLoops="1" AnimationPause="234" AnimationDirection="270" AnimationMove="F" AnimationUseIndividualPause="F" AnimationReplay="0" AnimationModelAnimIndex="-1" AnimationModelAnimSpeed="-1" AnimationModelFile="" AnimationModelName="" AnimationEndDirection="-1">
 			<AnimationPosition x="0" y="0"/>
 			<AnimationAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6885,7 +6961,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
-	<Sprites newId="60" versionedId="38" tableId="13">
+	<Sprites newId="62" versionedId="38" tableId="13">
 		<Sprite name="Unnamed" id="1" order="1" lastModified="-1">
 			<SpriteSprite name="" pause="-1" path="" Transparency="2">
 				<position x="0" y="0"/>
@@ -7136,8 +7212,18 @@
 				<position x="1658" y="822"/>
 			</SpriteSprite>
 		</Sprite>
+		<Sprite name="Unnamed" id="60" order="60" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
+		<Sprite name="Unnamed" id="61" order="61" lastModified="-1">
+			<SpriteSprite name="" pause="-1" path="" Transparency="2">
+				<position x="0" y="0"/>
+			</SpriteSprite>
+		</Sprite>
 	</Sprites>
-	<Texts newId="324" versionedId="125" tableId="14">
+	<Texts newId="326" versionedId="125" tableId="14">
 		<Text name="Id: 5 - : Hendrik" id="5" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -8214,6 +8300,16 @@
 				<text Text="" path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
+		<Text name="Unnamed" id="324" order="324" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="325" order="325" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
 	</Texts>
 	<Cursors newId="3" versionedId="1" tableId="15">
 		<Cursor name="Cursor" id="0" order="0" lastModified="-1">
@@ -8675,7 +8771,7 @@
 	</ParticleContainers>
 	<CommentSetEntries newId="0" versionedId="-1" tableId="27">
 	</CommentSetEntries>
-	<AnimationFrames newId="12" versionedId="-1" tableId="28">
+	<AnimationFrames newId="6" versionedId="-1" tableId="28">
 		<AnimationFrame name="Slap - Property Frame" id="5" order="0" lastModified="43" AnimationFrameIndex="1" AnimationFrameSound="SoundFX/395348__ihitokage__slap-3.ogg" AnimationFrameSoundVolume="0" AnimationFrameSoundBalance="0">
 			<AnimationFrameAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</AnimationFrame>
