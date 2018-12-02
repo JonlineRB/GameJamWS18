@@ -157,6 +157,7 @@
 			</CharacterValues>
 			<CharacterConditions>
 				<Link parentLink="T" id="11" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="29" tableId="10" LinkAny="F"/>
 			</CharacterConditions>
 			<CharacterActiveDialogFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
 			<CharacterInactiveDialogFont parentLink="F" id="0" tableId="3" LinkAny="F"/>
@@ -791,6 +792,10 @@
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
+				<point x="7" y="9"/>
+				<point x="1919" y="9"/>
+				<point x="1919" y="247"/>
+				<point x="7" y="247"/>
 			</InterfaceBorder>
 			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceConditions>
@@ -837,10 +842,10 @@
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
-				<point x="179" y="1"/>
-				<point x="182" y="1007"/>
-				<point x="1620" y="1007"/>
-				<point x="1635" y="3"/>
+				<point x="1" y="1"/>
+				<point x="1" y="1079"/>
+				<point x="1919" y="1079"/>
+				<point x="1919" y="3"/>
 			</InterfaceBorder>
 			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceConditions>
@@ -901,6 +906,10 @@
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
+				<point x="1" y="5"/>
+				<point x="1917" y="5"/>
+				<point x="1917" y="1079"/>
+				<point x="3" y="1079"/>
 			</InterfaceBorder>
 			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceConditions>
@@ -921,6 +930,10 @@
 			<InterfaceActionTextFont parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceActionTextRect top="0" left="0" bottom="-1" right="-1"/>
 			<InterfaceBorder>
+				<point x="3" y="3"/>
+				<point x="1933" y="3"/>
+				<point x="1933" y="1075"/>
+				<point x="7" y="1075"/>
 			</InterfaceBorder>
 			<InterfaceLeaveAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<InterfaceConditions>
@@ -1754,6 +1767,7 @@
 				<Link parentLink="T" id="46" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="47" tableId="6" LinkAny="F"/>
 				<Link parentLink="T" id="48" tableId="6" LinkAny="F"/>
+				<Link parentLink="T" id="59" tableId="6" LinkAny="F"/>
 			</SceneObjects>
 			<SceneCursor parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<SceneSavegameAreas>
@@ -1799,6 +1813,7 @@
 				<Link parentLink="T" id="16" tableId="10" LinkAny="F"/>
 				<Link parentLink="T" id="17" tableId="10" LinkAny="F"/>
 				<Link parentLink="T" id="18" tableId="10" LinkAny="F"/>
+				<Link parentLink="T" id="28" tableId="10" LinkAny="F"/>
 			</SceneConditions>
 			<SceneActions>
 				<Link parentLink="T" id="77" tableId="7" LinkAny="F"/>
@@ -1954,7 +1969,7 @@
 	</Scenes>
 	<Points newId="0" versionedId="-1" tableId="5">
 	</Points>
-	<Objects newId="59" versionedId="38" tableId="6">
+	<Objects newId="60" versionedId="38" tableId="6">
 		<Object name="Object0" id="3" order="0" lastModified="-1" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="9" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
@@ -2198,7 +2213,7 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
-		<Object name="Fridge" id="20" order="3" lastModified="43" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+		<Object name="Fridge" id="20" order="3" lastModified="43" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="T" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
 			<ObjectName parentLink="T" id="65" tableId="14" LinkAny="F"/>
 			<ObjectPolygon>
 				<point x="1369" y="739"/>
@@ -2208,7 +2223,7 @@
 				<point x="1749" y="1031"/>
 				<point x="1753" y="905"/>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="1" tableId="10" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
@@ -2751,8 +2766,10 @@
 				<point x="1391" y="279"/>
 				<point x="1375" y="865"/>
 				<point x="1095" y="921"/>
+				<point x="-10000" y="-10000"/>
+				<point x="2011" y="377"/>
 			</ObjectPolygon>
-			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectCondition parentLink="F" id="28" tableId="10" LinkAny="F"/>
 			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ObjectActions>
@@ -2985,8 +3002,39 @@
 			<ObjectSnoopAnimationPos x="0" y="0"/>
 			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Object>
+		<Object name="group" id="59" order="7" lastModified="43" ObjectDirection="-1" ObjectCenter="-1" ObjectIsItem="F" ObjectConditionNegate="F" ObjectIsWalkable="F" ObjectScrollFactorX="100" ObjectScrollFactorY="100" ObjectModel="" ObjectValueOperator="-1" ObjectValueInt="-1">
+			<ObjectName parentLink="T" id="295" tableId="14" LinkAny="F"/>
+			<ObjectPolygon>
+				<point x="307" y="333"/>
+				<point x="165" y="527"/>
+				<point x="165" y="847"/>
+				<point x="991" y="945"/>
+				<point x="995" y="733"/>
+				<point x="909" y="491"/>
+				<point x="861" y="365"/>
+				<point x="675" y="413"/>
+				<point x="459" y="381"/>
+			</ObjectPolygon>
+			<ObjectCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSprite parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectActions>
+				<Link parentLink="T" id="80" tableId="7" LinkAny="F"/>
+			</ObjectActions>
+			<ObjectConditions>
+			</ObjectConditions>
+			<ObjectAnimations>
+			</ObjectAnimations>
+			<ObjectValues>
+			</ObjectValues>
+			<ObjectPosition x="0" y="0"/>
+			<ObjectParticleSystem parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimation parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ObjectSnoopAnimationPos x="0" y="0"/>
+			<ObjectValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</Object>
 	</Objects>
-	<Actions newId="80" versionedId="31" tableId="7">
+	<Actions newId="82" versionedId="31" tableId="7">
 		<Action name="Called by other action" id="0" order="0" lastModified="-1" ActionExecutionType="5">
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3144,6 +3192,7 @@
 				<Link parentLink="T" id="105" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="106" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="208" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="223" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="31" order="31" lastModified="-1" ActionExecutionType="-1">
@@ -3210,8 +3259,6 @@
 				<Link parentLink="T" id="77" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="78" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="79" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="142" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="143" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="146" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="147" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="150" tableId="8" LinkAny="F"/>
@@ -3221,10 +3268,6 @@
 			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionActionParts>
-				<Link parentLink="T" id="82" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="83" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="84" tableId="8" LinkAny="F"/>
-				<Link parentLink="T" id="85" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="86" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="104" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="181" tableId="8" LinkAny="F"/>
@@ -3394,6 +3437,7 @@
 				<Link parentLink="T" id="196" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="209" tableId="8" LinkAny="F"/>
 				<Link parentLink="T" id="210" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="224" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
 		<Action name="Action" id="63" order="63" lastModified="-1" ActionExecutionType="-1">
@@ -3525,8 +3569,25 @@
 				<Link parentLink="T" id="220" tableId="8" LinkAny="F"/>
 			</ActionActionParts>
 		</Action>
+		<Action name="'click_left' executed" id="80" order="0" lastModified="43" ActionExecutionType="6">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="1" tableId="2" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="225" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="226" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="227" tableId="8" LinkAny="F"/>
+				<Link parentLink="T" id="228" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
+		<Action name="Action" id="81" order="81" lastModified="-1" ActionExecutionType="-1">
+			<ActionFixture parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionCommand parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionActionParts>
+				<Link parentLink="T" id="229" tableId="8" LinkAny="F"/>
+			</ActionActionParts>
+		</Action>
 	</Actions>
-	<ActionParts newId="223" versionedId="50" tableId="8">
+	<ActionParts newId="230" versionedId="50" tableId="8">
 		<ActionPart name="Quit game" id="0" order="0" lastModified="-1" ActionPartCommand="55" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -3655,7 +3716,7 @@
 			<ActionPartLink parentLink="T" id="144" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Narrator: You see a laptop with a bluescreen(bsod). Well R.I.P." id="60" order="0" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Narrator: You see a laptop with a bluescreen (of death). Well R.I.P." id="60" order="0" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="145" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -3714,22 +3775,6 @@
 		<ActionPart name="Change condition 'michi' to true" id="79" order="12" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="15" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="PersonA: OMG this game is amazing" id="82" order="4" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="170" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="PersonB: I am gonna getcha." id="83" order="5" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="171" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="PersonC: DIEDIEDIEIDIEDIE." id="84" order="6" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="172" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Robin: Come on guys I want to play too." id="85" order="7" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="T" id="173" tableId="14" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="13" tableId="0" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Hide character 'Robin'" id="86" order="3" lastModified="43" ActionPartCommand="98" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="13" tableId="0" LinkAny="F"/>
@@ -3791,11 +3836,11 @@
 			<ActionPartLink parentLink="F" id="3" tableId="0" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Gandalf: YOU SHALL NOT PASS!" id="105" order="0" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Gandalf: YOU SHALL NOT PASS!" id="105" order="1" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="187" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="9" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Start dialog 'passDialog'" id="106" order="1" lastModified="43" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Start dialog 'passDialog'" id="106" order="2" lastModified="43" ActionPartCommand="13" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="11" tableId="11" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -3903,7 +3948,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Play sound ''" id="137" order="1" lastModified="43" ActionPartCommand="24" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Play sound 'TerriblePokeFlute.mp3'" id="137" order="1" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX\TerriblePokeFlute.mp3" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -3920,14 +3965,6 @@
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
 		<ActionPart name="Change condition 'Fisch_picked_up' to true" id="141" order="2" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Remove item 'Fish' from character 'Current character'" id="142" order="7" lastModified="43" ActionPartCommand="150" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="1" ActionPartAltInt2="0" ActionPartString="">
-			<ActionPartLink parentLink="F" id="5" tableId="6" LinkAny="F"/>
-			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
-		</ActionPart>
-		<ActionPart name="Change condition 'Fisch_picked_up' to false" id="143" order="8" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="1" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -3959,7 +3996,7 @@
 			<ActionPartLink parentLink="F" id="21" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="End if" id="155" order="10" lastModified="43" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="End if" id="155" order="11" lastModified="43" ActionPartCommand="6" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -3967,7 +4004,7 @@
 			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Narrator: You don't know the password." id="158" order="9" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Narrator: You don't know the password." id="158" order="10" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="243" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4111,7 +4148,7 @@
 			<ActionPartLink parentLink="F" id="3" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Narrator: You take some toilet paper," id="206" order="2" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Narrator: You take some toilet paper." id="206" order="2" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="273" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4119,7 +4156,7 @@
 			<ActionPartLink parentLink="T" id="274" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Change condition 'talkedToGandalf' to true" id="208" order="2" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Change condition 'talkedToGandalf' to true" id="208" order="3" lastModified="43" ActionPartCommand="139" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="F" id="17" tableId="10" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</ActionPart>
@@ -4147,7 +4184,7 @@
 			<ActionPartLink parentLink="T" id="289" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik: I saw them put something into one of the lockers today, so they can’t be far. " id="218" order="3" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: I saw them put something into one of the lockers today, so they can't be far. " id="218" order="3" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="290" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
 		</ActionPart>
@@ -4163,9 +4200,37 @@
 			<ActionPartLink parentLink="T" id="293" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
-		<ActionPart name="Hendrik:  Go my minion." id="222" order="10" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+		<ActionPart name="Hendrik: Go my minion!" id="222" order="10" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
 			<ActionPartLink parentLink="T" id="294" tableId="14" LinkAny="F"/>
 			<ActionPartAltLink parentLink="F" id="0" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Play sound 'YouShallNotPass.wav'" id="223" order="0" lastModified="43" ActionPartCommand="24" ActionPartPath="SoundFX\YouShallNotPass.wav" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Hide 'PasswordScreen'" id="224" order="9" lastModified="-1" ActionPartCommand="56" ActionPartPath="" ActionPartInt="1" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="F" id="6" tableId="31" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="PersonA: OMG this game is amazing." id="225" order="0" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="297" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="5" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="PersonB: I am gonna getcha!" id="226" order="1" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="298" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="6" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="PersonC: DIEDIEDIEIDIEDIE!" id="227" order="2" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="299" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="7" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Robin: Come on guys I want to play too." id="228" order="3" lastModified="-1" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="300" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="13" tableId="0" LinkAny="F"/>
+		</ActionPart>
+		<ActionPart name="Narrator: You should let him alone. He seems busy." id="229" order="0" lastModified="43" ActionPartCommand="23" ActionPartPath="" ActionPartInt="0" ActionPartAltInt="0" ActionPartAltInt2="0" ActionPartString="">
+			<ActionPartLink parentLink="T" id="304" tableId="14" LinkAny="F"/>
+			<ActionPartAltLink parentLink="F" id="11" tableId="0" LinkAny="F"/>
 		</ActionPart>
 	</ActionParts>
 	<Animations newId="169" versionedId="100" tableId="9">
@@ -5848,7 +5913,7 @@
 			</AnimationPauses>
 		</Animation>
 	</Animations>
-	<Conditions newId="28" versionedId="10" tableId="10">
+	<Conditions newId="30" versionedId="10" tableId="10">
 		<Condition name="Fisch_picked_up" id="1" order="0" lastModified="43" ConditionIsVariable="T" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
 			<ConditionConditions>
 			</ConditionConditions>
@@ -5951,6 +6016,26 @@
 			<ConditionConditions>
 			</ConditionConditions>
 		</Condition>
+		<Condition name="doorAccecable" id="28" order="4" lastModified="43" ConditionIsVariable="F" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+				<Link parentLink="F" id="18" tableId="10" LinkAny="F"/>
+				<Link parentLink="F" id="4" tableId="10" LinkAny="F"/>
+			</ConditionConditions>
+			<ConditionConditionsNegate>
+				<value value="F"/>
+				<value value="T"/>
+			</ConditionConditionsNegate>
+		</Condition>
+		<Condition name="slapable" id="29" order="1" lastModified="43" ConditionIsVariable="F" ConditionValue="F" ConditionReturnNegate="F" ConditionOperator="0">
+			<ConditionConditions>
+				<Link parentLink="F" id="17" tableId="10" LinkAny="F"/>
+				<Link parentLink="F" id="1" tableId="10" LinkAny="F"/>
+			</ConditionConditions>
+			<ConditionConditionsNegate>
+				<value value="F"/>
+				<value value="F"/>
+			</ConditionConditionsNegate>
+		</Condition>
 	</Conditions>
 	<Dialogs newId="19" versionedId="3" tableId="11">
 		<Dialog name="passwordDialog" id="0" order="0" lastModified="43">
@@ -5989,6 +6074,7 @@
 			<DialogDialogParts>
 				<Link parentLink="T" id="7" tableId="12" LinkAny="F"/>
 				<Link parentLink="T" id="9" tableId="12" LinkAny="F"/>
+				<Link parentLink="T" id="26" tableId="12" LinkAny="F"/>
 			</DialogDialogParts>
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
@@ -6044,7 +6130,7 @@
 			<DialogCharacter parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</Dialog>
 	</Dialogs>
-	<DialogParts newId="26" versionedId="3" tableId="12">
+	<DialogParts newId="27" versionedId="3" tableId="12">
 		<DialogPart name="1. " id="0" order="0" lastModified="-1" DialogPartConditionNegate="F" DialogPartReturn="0" DialogPartRemove="F" DialogPartUseAltText="F" DialogPartValueOperator="-1" DialogPartValueInt="-1">
 			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="106" tableId="14" LinkAny="F"/>
@@ -6096,7 +6182,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 		<DialogPart name="1. *slap with fish*" id="7" order="0" lastModified="43" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="T" DialogPartValueOperator="-1" DialogPartValueInt="-1">
-			<DialogPartCondition parentLink="F" id="1" tableId="10" LinkAny="F"/>
+			<DialogPartCondition parentLink="F" id="29" tableId="10" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="148" tableId="14" LinkAny="F"/>
 			<DialogPartAction parentLink="T" id="41" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6106,7 +6192,7 @@
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 		<DialogPart name="2. *Try to interrupt*" id="9" order="1" lastModified="43" DialogPartConditionNegate="F" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="T" DialogPartValueOperator="-1" DialogPartValueInt="-1">
-			<DialogPartCondition parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartCondition parentLink="F" id="17" tableId="10" LinkAny="F"/>
 			<DialogPartText parentLink="T" id="154" tableId="14" LinkAny="F"/>
 			<DialogPartAction parentLink="T" id="78" tableId="7" LinkAny="F"/>
 			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
@@ -6243,6 +6329,16 @@
 			<DialogPartAnswerText parentLink="T" id="281" tableId="14" LinkAny="F"/>
 			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 			<DialogPartAltText parentLink="T" id="282" tableId="14" LinkAny="F"/>
+			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+		</DialogPart>
+		<DialogPart name="3. *Talk to Hendrik*" id="26" order="2" lastModified="43" DialogPartConditionNegate="T" DialogPartReturn="2" DialogPartRemove="F" DialogPartUseAltText="T" DialogPartValueOperator="-1" DialogPartValueInt="-1">
+			<DialogPartCondition parentLink="F" id="17" tableId="10" LinkAny="F"/>
+			<DialogPartText parentLink="T" id="301" tableId="14" LinkAny="F"/>
+			<DialogPartAction parentLink="T" id="81" tableId="7" LinkAny="F"/>
+			<DialogPartLinkedAction parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAnswerText parentLink="T" id="302" tableId="14" LinkAny="F"/>
+			<DialogPartNextDialog parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
+			<DialogPartAltText parentLink="T" id="303" tableId="14" LinkAny="F"/>
 			<DialogPartValue parentLink="F" id="-1" tableId="-1" LinkAny="F"/>
 		</DialogPart>
 	</DialogParts>
@@ -6498,7 +6594,7 @@
 			</SpriteSprite>
 		</Sprite>
 	</Sprites>
-	<Texts newId="295" versionedId="125" tableId="14">
+	<Texts newId="305" versionedId="125" tableId="14">
 		<Text name="Id: 5 - : Hendrik" id="5" order="1" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="0"/>
@@ -6952,7 +7048,7 @@
 		</Text>
 		<Text name="Id: 145 - GroupWorkRoom: bluescreenLaptop: 'click_left' executed (immediate)" id="145" order="145" lastModified="43">
 			<TextTextLanguages>
-				<text Text="You see a laptop with a bluescreen(bsod). Well R.I.P." path="" int="1"/>
+				<text Text="You see a laptop with a bluescreen (of death). Well R.I.P." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 146 - : Narrator" id="146" order="146" lastModified="-1">
@@ -7033,26 +7129,6 @@
 		<Text name="Id: 169 - LectureHall2: robinPos" id="169" order="166" lastModified="-1">
 			<TextTextLanguages>
 				<text Text="" path="" int="1"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 170 - At beginning of scene: PersonA: OMG this game is amazing" id="170" order="170" lastModified="43">
-			<TextTextLanguages>
-				<text Text="OMG this game is amazing" path="" int="1"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 171 - At beginning of scene: PersonB: I am gonna getcha." id="171" order="170" lastModified="43">
-			<TextTextLanguages>
-				<text Text="I am gonna getcha." path="" int="1"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 172 - At beginning of scene: PersonC: DIEDIEDIEIDIEDIE." id="172" order="170" lastModified="43">
-			<TextTextLanguages>
-				<text Text="DIEDIEDIEIDIEDIE." path="" int="1"/>
-			</TextTextLanguages>
-		</Text>
-		<Text name="Id: 173 - At beginning of scene: Robin: Come on guys I want to play too." id="173" order="173" lastModified="43">
-			<TextTextLanguages>
-				<text Text="Come on guys I want to play too." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 174 - : Robin" id="174" order="174" lastModified="-1">
@@ -7447,7 +7523,7 @@
 		</Text>
 		<Text name="Id: 273 - Quantum2: toiletPaper: 'click_left' executed (immediate)" id="273" order="273" lastModified="43">
 			<TextTextLanguages>
-				<text Text="You take some toilet paper," path="" int="1"/>
+				<text Text="You take some toilet paper." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 274 - Quantum2: Xbox: 'click_left' executed (immediate)" id="274" order="274" lastModified="43">
@@ -7502,7 +7578,7 @@
 		</Text>
 		<Text name="Id: 161 - Quantum1: hendikAndColleague: 'click_left' executed (immediate)" id="290" order="161" lastModified="43">
 			<TextTextLanguages>
-				<text Text="I saw them put something into one of the lockers today, so they can’t be far. " path="" int="1"/>
+				<text Text="I saw them put something into one of the lockers today, so they can't be far. " path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 		<Text name="Id: 185 - Action: Narrator: You give him the controller and he starts playing with the others. After a round he leaves satisfied." id="291" order="185" lastModified="43">
@@ -7522,7 +7598,52 @@
 		</Text>
 		<Text name="Id: 144 - Action: Hendrik: The project deadline is drawing near, go check on group 11. Go my minion." id="294" order="144" lastModified="43">
 			<TextTextLanguages>
-				<text Text=" Go my minion." path="" int="1"/>
+				<text Text="Go my minion!" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="295" order="295" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 170 - At beginning of scene: PersonA: OMG this game is amazing" id="297" order="170" lastModified="43">
+			<TextTextLanguages>
+				<text Text="OMG this game is amazing." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 171 - At beginning of scene: PersonB: I am gonna getcha." id="298" order="170" lastModified="43">
+			<TextTextLanguages>
+				<text Text="I am gonna getcha!" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 172 - At beginning of scene: PersonC: DIEDIEDIEIDIEDIE." id="299" order="170" lastModified="43">
+			<TextTextLanguages>
+				<text Text="DIEDIEDIEIDIEDIE!" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Id: 173 - At beginning of scene: Robin: Come on guys I want to play too." id="300" order="173" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="Come on guys I want to play too." path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="301" order="301" lastModified="43">
+			<TextTextLanguages>
+				<text Text="*Talk to Hendrik*" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="302" order="302" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="303" order="303" lastModified="-1">
+			<TextTextLanguages>
+				<text Text="" path="" int="1"/>
+			</TextTextLanguages>
+		</Text>
+		<Text name="Unnamed" id="304" order="304" lastModified="43">
+			<TextTextLanguages>
+				<text Text="You should let him alone. He seems busy." path="" int="1"/>
 			</TextTextLanguages>
 		</Text>
 	</Texts>
